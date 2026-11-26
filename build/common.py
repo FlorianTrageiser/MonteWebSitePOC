@@ -70,7 +70,7 @@ def news_grid(n=None, cls="news-grid"):
 
 
 def doc_list(docs, cls="doc-list"):
-    return UL([A(f'{DOC}<span>{l}</span>', r) for l, r in docs], cls)
+    return UL([A(l, r) for l, r in docs], cls)
 
 
 def values_list(cls="values"):
@@ -107,7 +107,7 @@ def facts(p):
 def topic_grid(p):
     cards = []
     for s in p["sections"]:
-        links = " ".join(A(f"{l} {ARROW}", r, "more") for l, r in s["links"])
+        links = " ".join(A(l, r, "more") for l, r in s["links"])
         cards.append(G("topic", H(3, s["title"]), P(s["text"]), P(links, "topic-links") if links else None))
     return G("topics", *cards)
 

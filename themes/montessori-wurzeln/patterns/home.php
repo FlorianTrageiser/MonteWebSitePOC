@@ -48,7 +48,7 @@
 <p><strong>23. Januar</strong> · Tag der offenen Tür in der Schule</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/termine/">Alle Termine <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/termine/">Alle Termine</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -170,7 +170,7 @@
 </ul>
 <!-- /wp:list -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/kinderhaus/">Kinderhaus entdecken <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/kinderhaus/">Kinderhaus entdecken</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -206,7 +206,7 @@
 </ul>
 <!-- /wp:list -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/schule/">Schule entdecken <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/schule/">Schule entdecken</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -224,7 +224,7 @@
 <p>Hinter Kinderhaus und Schule steht der Montessori-Verein: Eltern, Pädagoginnen und Pädagogen, die gemeinsam Verantwortung tragen.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/verein/">Verein kennenlernen <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/verein/">Verein kennenlernen</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -316,7 +316,7 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/termine/">Alle Termine & Aufnahme <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/termine/">Alle Termine & Aufnahme</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

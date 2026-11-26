@@ -30,7 +30,7 @@ def v1_home():
             G("hero-note",
               P("Nächster Termin", "kicker"),
               P(f'<strong>{e["d"]}. Januar</strong> · {e["title"]}'),
-              P(A(f"Alle Termine {ARROW}", "termine", "more")))),
+              P(A("Alle Termine", "termine", "more")))),
           tag="section"),
         G("path-section",
           section_head("Ein gemeinsamer Weg", "Vom ersten Jahr bis zur Schule – und darüber hinaus"),
@@ -47,7 +47,7 @@ def v1_home():
               P("In einem Passivhaus mit Gründach und großem Garten lernen Kinder ab dem ersten Lebensjahr "
                 "in ihrem eigenen Tempo. Jede Gruppe hat ihren eigenen Weg nach draußen."),
               UL(["Zwei inklusive Krippengruppen", "Vier Kindergartengruppen", "Online vormerken über Little Bird"], "checks"),
-              P(A(f"Kinderhaus entdecken {ARROW}", "kinderhaus", "more")))),
+              P(A("Kinderhaus entdecken", "kinderhaus", "more")))),
           G("place place-reverse",
             Img(IMG["klassenzimmer"], "Das grüne Klassenzimmer der Schule", "place-img"),
             G("place-text",
@@ -56,13 +56,13 @@ def v1_home():
               P("Altersgemischte Klassen, Freiarbeit und ein grünes Klassenzimmer: Hier übernehmen Kinder "
                 "Verantwortung für ihr Lernen – und füreinander."),
               UL(["Unterricht von 8:30 bis 12:45 Uhr", "Mittagsvilla und AGs am Nachmittag", "Vier Schulbuslinien"], "checks"),
-              P(A(f"Schule entdecken {ARROW}", "schule", "more")))),
+              P(A("Schule entdecken", "schule", "more")))),
           G("place-mini",
             P("Landkreis Erding", "kicker"),
             H(2, "Verein"),
             P("Hinter Kinderhaus und Schule steht der Montessori-Verein: Eltern, Pädagoginnen und Pädagogen, "
               "die gemeinsam Verantwortung tragen."),
-            P(A(f"Verein kennenlernen {ARROW}", "verein", "more"))),
+            P(A("Verein kennenlernen", "verein", "more"))),
           tag="section", id="einrichtungen"),
         G("quote",
           Raw('<blockquote class="quote-text"><p>„Was Kinder betrifft, betrifft die Menschheit.“</p>'
@@ -72,7 +72,7 @@ def v1_home():
           G("split-col",
             section_head("Termine", "Bald bei uns"),
             events_list(3),
-            P(A(f"Alle Termine & Aufnahme {ARROW}", "termine", "more"))),
+            P(A("Alle Termine & Aufnahme", "termine", "more"))),
           G("split-col",
             section_head("Aktuelles", "Neues aus Kinderhaus, Schule und Verein"),
             news_grid(3, "news-list")),
@@ -97,7 +97,7 @@ def v1_home():
 def topbar():
     return G("topbar",
              P(f'<span class="pill">Wir suchen</span> eine Lehrkraft (m/w/d) für die Grundschule '
-               f'{A("Zur Stelle " + ARROW, "https://montessori-erding.de/jobs/")}', "topbar-msg"),
+               f'{A("Zur Stelle", "https://montessori-erding.de/jobs/", "more")}', "topbar-msg"),
              P(f'{A("MonteManager", "https://www.montemanager.de/login.php")} · {A("Kontakt", "kontakt")}', "topbar-links"))
 
 
@@ -145,7 +145,7 @@ def v2_home():
                 G("card-body",
                   P(kicker, "kicker"), H(3, title), P(text),
                   UL(points, "card-points"),
-                  P(A(f"Mehr erfahren {ARROW}", ref, "more"))))
+                  P(A("Mehr erfahren", ref, "more"))))
               for img, alt, kicker, title, text, points, ref in [
                   (IMG["kinderhaus"], "Kinderhaus Erding", "Erding", "Kinderhaus",
                    "Krippe und Kindergarten für Kinder vom ersten Lebensjahr bis zur Einschulung.",
@@ -162,11 +162,11 @@ def v2_home():
           G("two-col",
             G("col",
               G("head-row", section_head("Termine", "Nächste Termine"),
-                P(A(f"Alle Termine {ARROW}", "termine", "more"))),
+                P(A("Alle Termine", "termine", "more"))),
               events_list(4)),
             G("col",
               G("head-row", section_head("Aktuelles", "Neuigkeiten"),
-                P(A(f"Alle Neuigkeiten {ARROW}", "https://montessori-erding.de/schule/neuigkeiten/", "more"))),
+                P(A("Alle Neuigkeiten", "https://montessori-erding.de/schule/neuigkeiten/", "more"))),
               news_grid(4, "news-list"))),
           tag="section"),
         G("block",

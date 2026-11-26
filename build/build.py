@@ -114,12 +114,13 @@ def render_overview():
     cards = []
     for i, v in enumerate(VERSIONS):
         sw = "".join(f'<i style="background:{col}"></i>' for col in v["swatch"])
-        cards.append(f"""<a class="ov-card" href="{v['slug']}/index.html">
+        cards.append(f"""<div class="ov-item"><a class="ov-card" href="{v['slug']}/index.html">
   <span class="ov-thumb" aria-hidden="true"><iframe src="{v['slug']}/index.html" tabindex="-1" loading="lazy" scrolling="no" title="Vorschau {esc(v['name'])}"></iframe></span>
   <span class="ov-body"><span class="ov-num">Entwurf {i + 1}</span>
   <span class="ov-name">{esc(v['name'])}</span><span class="ov-claim">{esc(v['claim'])}</span>
   <span class="ov-desc">{esc(v['desc'])}</span><span class="ov-sw">{sw}</span>
-  <span class="ov-go">Ansehen →</span></span></a>""")
+  <span class="ov-go">Ansehen →</span></span></a>
+  <a class="ov-dl" href="downloads/{v['theme']}.zip">WordPress-Theme herunterladen (.zip)</a></div>""")
     doc = f"""<!doctype html>
 <html lang="de">
 <head>
@@ -152,6 +153,9 @@ h1{{font-size:clamp(28px,4vw,44px);line-height:1.1;margin:0;letter-spacing:-.02e
 .ov-sw{{display:flex;gap:6px;margin:8px 0 4px}}
 .ov-sw i{{width:26px;height:26px;border-radius:50%;border:1px solid rgba(0,0,0,.15)}}
 .ov-go{{margin-top:auto;padding-top:10px;font-weight:700}}
+.ov-item{{display:flex;flex-direction:column;gap:10px}}
+.ov-card{{flex:1}}
+.ov-dl{{color:var(--muted);font-size:14px;padding-left:4px}}
 .note{{margin-top:40px;color:var(--muted);font-size:14px;max-width:70ch}}
 </style>
 </head>
@@ -223,7 +227,8 @@ def render_theme(v):
         os.makedirs(os.path.join(tdir, sub))
     c = Ctx("wp")
     slug = v["theme"]
-    css = css_for(v)
+    # Im Theme gibt es nur einen Entwurf: Präfix entfernen, damit die Stile auch im Editor greifen.
+    css = css_for(v).replace("." + v["slug"] + " ", "")
     with open(os.path.join(tdir, "style.css"), "w") as f:
         f.write(f"""/*
 Theme Name: Montessori Erding – {v['name']}
@@ -254,6 +259,11 @@ Text Domain: {slug}
 add_action( 'wp_enqueue_scripts', function () {{
 	wp_enqueue_style( '{slug}-fonts', '{v['fonts']}', array(), null );
 	wp_enqueue_style( '{slug}', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
+}} );
+
+add_filter( 'body_class', function ( $classes ) {{
+	$classes[] = '{v['slug']}';
+	return $classes;
 }} );
 
 add_action( 'after_setup_theme', function () {{
@@ -333,7 +343,7 @@ add_action( 'init', function () {{
 {ftr}
 """)
     shutil.copy(os.path.join(HERE, "assets", "logo-figuren.png"), os.path.join(tdir, "assets", "logo-figuren.png"))
-    shot = os.path.join(DOCS, "assets", f'preview-{v["slug"]}.jpg')
+    shot = os.path.join(HERE, "assets", "screens", f'{v["slug"]}.jpg')
     if os.path.exists(shot):
         shutil.copy(shot, os.path.join(tdir, "screenshot.jpg"))
     w("README.md", f"""# Montessori Erding – {v['name']} ({v['claim']})
@@ -352,6 +362,17 @@ und können im Editor bearbeitet werden. Die Gestaltung steckt in `style.css`.
 """)
 
 
+def zip_theme(v):
+    import zipfile
+    os.makedirs(os.path.join(DOCS, "downloads"), exist_ok=True)
+    src = os.path.join(THEMES, v["theme"])
+    with zipfile.ZipFile(os.path.join(DOCS, "downloads", f'{v["theme"]}.zip'), "w", zipfile.ZIP_DEFLATED) as z:
+        for dp, _, files in os.walk(src):
+            for fn in sorted(files):
+                full = os.path.join(dp, fn)
+                z.write(full, os.path.join(v["theme"], os.path.relpath(full, src)))
+
+
 def main():
     os.makedirs(os.path.join(DOCS, "assets"), exist_ok=True)
     shutil.copy(os.path.join(HERE, "assets", "logo-figuren.png"), os.path.join(DOCS, "assets", "logo-figuren.png"))
@@ -359,6 +380,7 @@ def main():
     for v in VERSIONS:
         render_preview(v)
         render_theme(v)
+        zip_theme(v)
     render_overview()
     print("ok")
 

@@ -118,7 +118,7 @@
 <p>Kunstschaffende zeigen ihre Arbeit und bieten Handgefertigtes an. Der Markt 2026 fand am 25. Oktober statt.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://montessori-erding.de/verein/markt-der-kuenste/">Zum Markt der Künste <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://montessori-erding.de/verein/markt-der-kuenste/">Zum Markt der Künste</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -141,7 +141,7 @@
 <p>Von Maria Montessoris Leben bis zur Montessori-Arbeit hier vor Ort.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://montessori-erding.de/verein/chronik/">Zur Chronik <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://montessori-erding.de/verein/chronik/">Zur Chronik</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -154,7 +154,7 @@
 <p>Die Geschäftsstelle ist Anlaufstelle für Presseanfragen und stellt Mitteilungen und freigegebene Fotos bereit.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://montessori-erding.de/verein/presse/">Zum Pressebereich <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://montessori-erding.de/verein/presse/">Zum Pressebereich</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -167,7 +167,7 @@
 <p>Der Verein ist Mitglied im Familienpakt Bayern und fördert Projekte wie „Zirkus macht stark“.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://montessori-erding.de/zirkus-macht-stark/">Zirkus macht stark <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://montessori-erding.de/zirkus-macht-stark/">Zirkus macht stark</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -185,13 +185,13 @@
 <!-- wp:list {"className":"doc-list"} -->
 <ul class="wp-block-list doc-list">
 <!-- wp:list-item -->
-<li><a href="https://www.bildungsspender.de/montessori-erding"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Spenden über Bildungsspender</span></a></li>
+<li><a href="https://www.bildungsspender.de/montessori-erding">Spenden über Bildungsspender</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://montessori-erding.de/links/"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Links & Partner</span></a></li>
+<li><a href="https://montessori-erding.de/links/">Links & Partner</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://montessori-erding.de/jobs/"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Stellenangebote</span></a></li>
+<li><a href="https://montessori-erding.de/jobs/">Stellenangebote</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

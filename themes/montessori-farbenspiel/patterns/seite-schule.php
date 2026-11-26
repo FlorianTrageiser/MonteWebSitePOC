@@ -121,7 +121,7 @@
 <p>Freiarbeit gibt den Kindern Raum, Verantwortung für ihre Arbeit zu übernehmen. Berichte zum Entwicklungs- und Lernprozess machen Fortschritte sichtbar.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://www.montessori-erding.de/wp-content/uploads/2022/10/21FragenAnMontessoriSchulen.pdf" target="_blank" rel="noopener">21 Fragen an Montessori-Schulen (PDF) <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://www.montessori-erding.de/wp-content/uploads/2022/10/21FragenAnMontessoriSchulen.pdf" target="_blank" rel="noopener">21 Fragen an Montessori-Schulen (PDF)</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -134,7 +134,7 @@
 <p>Beim Schach planen Kinder ihre nächsten Züge, im Zirkus trainieren sie gemeinsam in der Sporthalle. Im Schülerladen „Mandala“ erproben Jugendliche den Alltag eines Betriebs – vom Verkauf bis zur Buchführung.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://montessori-erding.de/schule/schulleben/schach/schach-im-schulalltag/">Schach im Schulalltag <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://montessori-erding.de/schule/schulleben/schach/schach-im-schulalltag/">Schach im Schulalltag</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -147,7 +147,7 @@
 <p>Für den ersten bis dritten Jahrgang gehört die Mittagsvilla zum Angebot. Dazu kommen Arbeitsgemeinschaften am Nachmittag.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://montessori-erding.de/schule/ganztagesschule/ag-beschreibung/">AG-Beschreibungen <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a> <a class="more" href="https://montessori-erding.de/schule/ganztagesschule/faq-ogts/">FAQ Ganztag <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://montessori-erding.de/schule/ganztagesschule/ag-beschreibung/">AG-Beschreibungen</a> <a class="more" href="https://montessori-erding.de/schule/ganztagesschule/faq-ogts/">FAQ Ganztag</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -160,7 +160,7 @@
 <p>Auf dem Schulacker mit der GemüseAckerdemie und in Fairtrade-Projekten wird Nachhaltigkeit praktisch erfahrbar. Die Schule engagiert sich außerdem bei UNESCO und „Schule ohne Rassismus – Schule mit Courage“.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://montessori-erding.de/schule/bildung-fuer-nachhaltige-entwicklung/ackerschule/">AckerSchule <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://montessori-erding.de/schule/bildung-fuer-nachhaltige-entwicklung/ackerschule/">AckerSchule</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -173,7 +173,7 @@
 <p>Auf das Kinderhaus folgen die Schulstufen in Aufkirchen. Eine weiterführende Möglichkeit ist die Montessori-Fachoberschule München, an deren Gründung unsere Schule beteiligt war.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
-<p class="topic-links"><a class="more" href="https://www.mos-muenchen.de/">mos-muenchen.de <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topic-links"><a class="more" href="https://www.mos-muenchen.de/">mos-muenchen.de</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -191,19 +191,19 @@
 <!-- wp:list {"className":"doc-list"} -->
 <ul class="wp-block-list doc-list">
 <!-- wp:list-item -->
-<li><a href="https://www.montessori-erding.de/wp-content/uploads/2022/11/Konzept_Schule_Neu2014.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Schulkonzept (PDF)</span></a></li>
+<li><a href="https://www.montessori-erding.de/wp-content/uploads/2022/11/Konzept_Schule_Neu2014.pdf" target="_blank" rel="noopener">Schulkonzept (PDF)</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://montessori-erding.de/wp-content/uploads/2026/07/Linie-1-2026-2027.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Schulbus Linie 1 · ab Moosburg</span></a></li>
+<li><a href="https://montessori-erding.de/wp-content/uploads/2026/07/Linie-1-2026-2027.pdf" target="_blank" rel="noopener">Schulbus Linie 1 · ab Moosburg</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://montessori-erding.de/wp-content/uploads/2026/07/Linie-2-2026-2027.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Schulbus Linie 2 · ab Freising</span></a></li>
+<li><a href="https://montessori-erding.de/wp-content/uploads/2026/07/Linie-2-2026-2027.pdf" target="_blank" rel="noopener">Schulbus Linie 2 · ab Freising</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://montessori-erding.de/wp-content/uploads/2026/07/Linie-3-2026-2027.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Schulbus Linie 3 · ab Anzing</span></a></li>
+<li><a href="https://montessori-erding.de/wp-content/uploads/2026/07/Linie-3-2026-2027.pdf" target="_blank" rel="noopener">Schulbus Linie 3 · ab Anzing</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://montessori-erding.de/wp-content/uploads/2026/09/Linie-4-2026-2027.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Schulbus Linie 4 · ab Markt Schwaben</span></a></li>
+<li><a href="https://montessori-erding.de/wp-content/uploads/2026/09/Linie-4-2026-2027.pdf" target="_blank" rel="noopener">Schulbus Linie 4 · ab Markt Schwaben</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

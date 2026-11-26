@@ -8,6 +8,11 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'montessori-wurzeln', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
 } );
 
+add_filter( 'body_class', function ( $classes ) {
+	$classes[] = 'v1';
+	return $classes;
+} );
+
 add_action( 'after_setup_theme', function () {
 	add_editor_style( array( 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Figtree:wght@400;500;600;700&display=swap', 'style.css' ) );
 } );

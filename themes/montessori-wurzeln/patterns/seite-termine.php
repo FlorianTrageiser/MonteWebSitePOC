@@ -191,13 +191,13 @@
 <!-- wp:list {"className":"doc-list"} -->
 <ul class="wp-block-list doc-list">
 <!-- wp:list-item -->
-<li><a href="https://montessori-erding.de/wp-content/uploads/2026/09/2027-2028-Wichtige-Termine-Ersties-1.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Wichtige Termine 1. Klasse 2027/28 (PDF)</span></a></li>
+<li><a href="https://montessori-erding.de/wp-content/uploads/2026/09/2027-2028-Wichtige-Termine-Ersties-1.pdf" target="_blank" rel="noopener">Wichtige Termine 1. Klasse 2027/28 (PDF)</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.montessori-erding.de/wp-content/uploads/2025/12/Voranmeldebogen-Schulanfaenger.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Voranmeldebogen Schulanfänger (PDF)</span></a></li>
+<li><a href="https://www.montessori-erding.de/wp-content/uploads/2025/12/Voranmeldebogen-Schulanfaenger.pdf" target="_blank" rel="noopener">Voranmeldebogen Schulanfänger (PDF)</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.montessori-erding.de/wp-content/uploads/2025/12/Voranmeldebogen-Quereinsteiger.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Voranmeldebogen Quereinsteiger (PDF)</span></a></li>
+<li><a href="https://www.montessori-erding.de/wp-content/uploads/2025/12/Voranmeldebogen-Quereinsteiger.pdf" target="_blank" rel="noopener">Voranmeldebogen Quereinsteiger (PDF)</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

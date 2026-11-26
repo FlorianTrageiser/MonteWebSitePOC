@@ -22,7 +22,10 @@ figure{margin:0}
 .skip-link:focus{left:1rem;top:1rem}
 
 /* Breite & Ränder */
-:root{--gut:max(20px, calc((100% - var(--wrap,1200px)) / 2))}
+:root{
+  --i-arrow:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12h13m-5-6 6 6-6 6' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --i-doc:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 3h7l5 5v13H7zM14 3v5h5' fill='none' stroke='black' stroke-width='1.8' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --gut:max(20px, calc((100% - var(--wrap,1200px)) / 2))}
 main > *:not(.wp-block-post-content), .wp-block-post-content > *, .header-inner, .footer-inner, .footer-bottom, .topbar{
   padding-inline:var(--gut)}
 main > section, .wp-block-post-content > section{padding-block:var(--section-y,clamp(3.5rem,8vw,6.5rem))}
@@ -86,8 +89,9 @@ main > section, .wp-block-post-content > section{padding-block:var(--section-y,c
 .section-intro{margin-top:1rem;color:var(--ink-soft,var(--muted));font-size:1.1rem;max-width:56ch}
 .more{display:inline-flex;align-items:center;gap:.4rem;font-weight:700;text-decoration:none;color:var(--link,var(--primary))}
 .more:hover{text-decoration:underline}
-.more .ico{transition:transform .15s}
-.more:hover .ico{transform:translateX(3px)}
+.more::after{content:"";width:1.1em;height:1.1em;flex:none;background:currentColor;transition:transform .15s;
+  -webkit-mask:var(--i-arrow) center/contain no-repeat;mask:var(--i-arrow) center/contain no-repeat}
+.more:hover::after{transform:translateX(3px)}
 .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.18rem .55rem;border-radius:99px;
   background:var(--tag-bg,rgba(0,0,0,.06));color:var(--tag-ink,var(--ink))}
 
@@ -123,7 +127,8 @@ main > section, .wp-block-post-content > section{padding-block:var(--section-y,c
 .doc-list{list-style:none;display:grid;gap:.15rem}
 .doc-list a{display:flex;gap:.7rem;align-items:center;padding:.7rem .6rem;margin-inline:-.6rem;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:600}
 .doc-list a:hover{background:var(--hover,rgba(0,0,0,.05))}
-.doc-list .ico{color:var(--primary)}
+.doc-list a::before{content:"";width:1.2em;height:1.2em;flex:none;background:var(--primary);
+  -webkit-mask:var(--i-doc) center/contain no-repeat;mask:var(--i-doc) center/contain no-repeat}
 .values{list-style:none;display:grid;gap:.6rem;counter-reset:v}
 .values li{counter-increment:v;display:flex;gap:1rem;align-items:baseline;font-size:1.1rem;padding:.9rem 0;border-bottom:1px solid var(--line)}
 .values li::before{content:counter(v,decimal-leading-zero);font-weight:700;font-size:.85rem;color:var(--accent)}

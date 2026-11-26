@@ -112,7 +112,7 @@
 </ul>
 <!-- /wp:list -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/kinderhaus/">Mehr erfahren <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/kinderhaus/">Mehr erfahren</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -148,7 +148,7 @@
 </ul>
 <!-- /wp:list -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/schule/">Mehr erfahren <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/schule/">Mehr erfahren</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -184,7 +184,7 @@
 </ul>
 <!-- /wp:list -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/verein/">Mehr erfahren <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/verein/">Mehr erfahren</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -213,7 +213,7 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph -->
-<p><a class="more" href="/termine/">Alle Termine <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="/termine/">Alle Termine</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -318,7 +318,7 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph -->
-<p><a class="more" href="https://montessori-erding.de/schule/neuigkeiten/">Alle Neuigkeiten <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p><a class="more" href="https://montessori-erding.de/schule/neuigkeiten/">Alle Neuigkeiten</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

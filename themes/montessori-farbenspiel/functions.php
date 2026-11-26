@@ -8,6 +8,11 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'montessori-farbenspiel', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
 } );
 
+add_filter( 'body_class', function ( $classes ) {
+	$classes[] = 'v3';
+	return $classes;
+} );
+
 add_action( 'after_setup_theme', function () {
 	add_editor_style( array( 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap', 'style.css' ) );
 } );

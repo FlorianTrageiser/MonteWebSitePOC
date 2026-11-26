@@ -12,7 +12,7 @@
 <!-- wp:group {"className":"topbar","layout":{"type":"default"}} -->
 <div class="wp-block-group topbar">
 <!-- wp:paragraph {"className":"topbar-msg"} -->
-<p class="topbar-msg"><span class="pill">Wir suchen</span> eine Lehrkraft (m/w/d) für die Grundschule <a href="https://montessori-erding.de/jobs/">Zur Stelle <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="topbar-msg"><span class="pill">Wir suchen</span> eine Lehrkraft (m/w/d) für die Grundschule <a class="more" href="https://montessori-erding.de/jobs/">Zur Stelle</a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topbar-links"} -->
 <p class="topbar-links"><a href="https://www.montemanager.de/login.php">MonteManager</a> · <a href="/kontakt/">Kontakt</a></p>
