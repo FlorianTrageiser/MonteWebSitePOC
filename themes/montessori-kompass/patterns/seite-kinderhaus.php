@@ -36,7 +36,7 @@
 <!-- wp:group {"className":"page-hero-media","layout":{"type":"default"}} -->
 <div class="wp-block-group page-hero-media">
 <!-- wp:image {"sizeSlug":"large","className":"hero-img"} -->
-<figure class="wp-block-image size-large hero-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_mont_kh_hochl_18-07_58ae5b0644.jpg" alt="Das Montessori Kinderhaus in Erding" decoding="async"/></figure>
+<figure class="wp-block-image size-large hero-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0169.jpg" alt="Gruppenraum mit offenen Regalen im Kinderhaus" decoding="async"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->

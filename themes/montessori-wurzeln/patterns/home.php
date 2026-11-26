@@ -34,7 +34,7 @@
 <!-- wp:group {"className":"hero-media","layout":{"type":"default"}} -->
 <div class="wp-block-group hero-media">
 <!-- wp:image {"sizeSlug":"large","className":"hero-img"} -->
-<figure class="wp-block-image size-large hero-img"><img src="https://www.montessori-erding.de/wp-content/uploads/2024/02/mont_kh_startseite.jpg" alt="Kinder im Montessori Kinderhaus Erding" decoding="async"/></figure>
+<figure class="wp-block-image size-large hero-img"><img src="https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg" alt="Kinder lernen mit Montessori-Material" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
 <svg class="leaf" viewBox="0 0 120 120" aria-hidden="true"><path d="M20 100C20 50 55 20 100 20c0 45-30 80-80 80Z" fill="currentColor"/><path d="M24 96 92 28" stroke="var(--paper)" stroke-width="2" fill="none"/></svg>
@@ -143,7 +143,7 @@
 <!-- wp:group {"className":"place","layout":{"type":"default"}} -->
 <div class="wp-block-group place">
 <!-- wp:image {"sizeSlug":"large","className":"place-img"} -->
-<figure class="wp-block-image size-large place-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_mont_kh_hochl_18-07_58ae5b0644.jpg" alt="Das Kinderhaus in Erding" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-large place-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0227__2_.jpg" alt="Kinder spielen im Garten des Kinderhauses" loading="lazy" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"place-text","layout":{"type":"default"}} -->
 <div class="wp-block-group place-text">

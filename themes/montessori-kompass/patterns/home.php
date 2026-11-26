@@ -58,13 +58,13 @@
 <!-- wp:group {"className":"photo-band","layout":{"type":"default"}} -->
 <div class="wp-block-group photo-band">
 <!-- wp:image {"sizeSlug":"large","className":"band-img band-a"} -->
-<figure class="wp-block-image size-large band-img band-a"><img src="https://www.montessori-erding.de/wp-content/uploads/2024/02/mont_kh_startseite.jpg" alt="Kinder im Kinderhaus" decoding="async"/></figure>
+<figure class="wp-block-image size-large band-img band-a"><img src="https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg" alt="Kinder lernen mit Montessori-Material" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","className":"band-img band-b"} -->
-<figure class="wp-block-image size-large band-img band-b"><img src="https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg" alt="Lernen mit Montessori-Material" decoding="async"/></figure>
+<figure class="wp-block-image size-large band-img band-b"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0227__2_.jpg" alt="Kinder spielen im Garten des Kinderhauses" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","className":"band-img band-c"} -->
-<figure class="wp-block-image size-large band-img band-c"><img src="https://www.montessori-erding.de/wp-content/uploads/2024/11/Montesssorieschule_Beschattung_gruenes_Klassenzimmer.doc-scaled.jpg" alt="Grünes Klassenzimmer" decoding="async"/></figure>
+<figure class="wp-block-image size-large band-img band-c"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0175.jpg" alt="Weltkarten-Puzzle aus dem Montessori-Material" decoding="async"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -85,7 +85,7 @@
 <!-- wp:group {"className":"card","layout":{"type":"default"}} -->
 <div class="wp-block-group card">
 <!-- wp:image {"sizeSlug":"large","className":"card-img"} -->
-<figure class="wp-block-image size-large card-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_mont_kh_hochl_18-07_58ae5b0644.jpg" alt="Kinderhaus Erding" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-large card-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0169.jpg" alt="Gruppenraum im Kinderhaus Erding" loading="lazy" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"card-body","layout":{"type":"default"}} -->
 <div class="wp-block-group card-body">
@@ -121,7 +121,7 @@
 <!-- wp:group {"className":"card","layout":{"type":"default"}} -->
 <div class="wp-block-group card">
 <!-- wp:image {"sizeSlug":"large","className":"card-img"} -->
-<figure class="wp-block-image size-large card-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/11/csm_mont_sch_hochl_18-07_1e3d4f4c94.jpg" alt="Schule Aufkirchen" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-large card-img"><img src="https://www.montessori-erding.de/wp-content/uploads/2024/11/Montesssorieschule_Beschattung_gruenes_Klassenzimmer.doc-scaled.jpg" alt="Grünes Klassenzimmer der Schule Aufkirchen" loading="lazy" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"card-body","layout":{"type":"default"}} -->
 <div class="wp-block-group card-body">
@@ -157,7 +157,7 @@
 <!-- wp:group {"className":"card","layout":{"type":"default"}} -->
 <div class="wp-block-group card">
 <!-- wp:image {"sizeSlug":"large","className":"card-img"} -->
-<figure class="wp-block-image size-large card-img"><img src="https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg" alt="Lernen mit Montessori-Material" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-large card-img"><img src="https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg" alt="Kinder lernen mit Montessori-Material" loading="lazy" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"card-body","layout":{"type":"default"}} -->
 <div class="wp-block-group card-body">

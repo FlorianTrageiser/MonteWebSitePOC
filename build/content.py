@@ -7,15 +7,16 @@ teils gekürzt. Termine bitte vor Veröffentlichung prüfen.
 UP = "https://montessori-erding.de/wp-content/uploads"
 
 IMG = {
-    "hero": "https://www.montessori-erding.de/wp-content/uploads/2024/02/mont_kh_startseite.jpg",
-    "kinderhaus": f"{UP}/2022/10/csm_mont_kh_hochl_18-07_58ae5b0644.jpg",
-    "schule": f"{UP}/2022/11/csm_mont_sch_hochl_18-07_1e3d4f4c94.jpg",
-    "lernen": "https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg",
-    "klassenzimmer": "https://www.montessori-erding.de/wp-content/uploads/2024/11/Montesssorieschule_Beschattung_gruenes_Klassenzimmer.doc-scaled.jpg",
-    "raum1": f"{UP}/2022/10/DSC0202__2_.jpg",
-    "raum2": f"{UP}/2022/10/DSC0194.jpg",
-    "raum3": f"{UP}/2022/10/DSC0241__3_.jpg",
-    "raum4": f"{UP}/2022/10/DSC0227__2_.jpg",
+    # Kinder arbeiten mit Montessori-Material (2400 px)
+    "hero": "https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg",
+    # Kinder spielen im verschneiten Garten des Kinderhauses
+    "kinderhaus": f"{UP}/2022/10/DSC0227__2_.jpg",
+    # Gruppenraum mit offenen Regalen im Kinderhaus
+    "raum": f"{UP}/2022/10/DSC0169.jpg",
+    # Grünes Klassenzimmer der Schule (2560 px)
+    "schule": "https://www.montessori-erding.de/wp-content/uploads/2024/11/Montesssorieschule_Beschattung_gruenes_Klassenzimmer.doc-scaled.jpg",
+    # Weltkarten-Puzzle
+    "karte": f"{UP}/2022/10/DSC0175.jpg",
 }
 
 MATERIAL = [
@@ -111,8 +112,8 @@ PAGES = {
         "title": "Unser Kinderhaus",
         "lead": "Ein Lebensraum für Kinder vom ersten Lebensjahr bis zur Einschulung – "
                 "und für ihre Eltern, Pädagoginnen, Pädagogen und Therapeuten.",
-        "img": IMG["kinderhaus"],
-        "img_alt": "Das Montessori Kinderhaus in Erding",
+        "img": IMG["raum"],
+        "img_alt": "Gruppenraum mit offenen Regalen im Kinderhaus",
         "facts": [("2", "inklusive Krippengruppen"), ("4", "Kindergartengruppen"),
                   ("1", "Passivhaus mit Gründach"), ("1", "Garten mit Zugang aus jeder Gruppe")],
         "cta": ("Platz über Little Bird vormerken", LITTLE_BIRD),
@@ -157,7 +158,7 @@ PAGES = {
         "title": "Unsere Schule",
         "lead": "Eine staatlich anerkannte Volksschule in freier Trägerschaft. Kinder lernen in "
                 "altersgemischten Klassen – mit Freiarbeit, Verantwortung und Gemeinschaft.",
-        "img": IMG["klassenzimmer"],
+        "img": IMG["schule"],
         "img_alt": "Das grüne Klassenzimmer der Montessori-Schule",
         "facts": [("8:30", "bis 12:45 Uhr Vormittagsunterricht"), ("1–3", "Jahrgang mit Mittagsvilla"),
                   ("4", "Schulbuslinien"), ("30", "Jahre Montessori-Schule")],
@@ -205,7 +206,7 @@ PAGES = {
         "title": "Der Verein hinter allem",
         "lead": "Eltern, Pädagoginnen und Pädagogen tragen gemeinsam Kinderhaus und Schule. "
                 "Der Verein schafft den Rahmen – organisatorisch und finanziell.",
-        "img": IMG["lernen"],
+        "img": IMG["hero"],
         "img_alt": "Kinder lernen mit Montessori-Material",
         "facts": [("2", "Einrichtungen"), ("30+", "Jahre Montessori im Landkreis"),
                   ("1", "Sozialfonds für faire Chancen"), ("6–10", "Jahre: Aufkirchner Sport-Ferien")],
