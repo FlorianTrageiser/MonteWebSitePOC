@@ -61,7 +61,7 @@
 <figure class="wp-block-image size-large band-img band-a"><img src="https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg" alt="Kinder lernen mit Montessori-Material" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","className":"band-img band-b"} -->
-<figure class="wp-block-image size-large band-img band-b"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0227__2_.jpg" alt="Kinder spielen im Garten des Kinderhauses" decoding="async"/></figure>
+<figure class="wp-block-image size-large band-img band-b"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0241__3_.jpg" alt="Kinder spielen im Garten des Kinderhauses" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","className":"band-img band-c"} -->
 <figure class="wp-block-image size-large band-img band-c"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0175.jpg" alt="Weltkarten-Puzzle aus dem Montessori-Material" decoding="async"/></figure>

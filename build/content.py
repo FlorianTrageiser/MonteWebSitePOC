@@ -10,7 +10,7 @@ IMG = {
     # Kinder arbeiten mit Montessori-Material (2400 px)
     "hero": "https://www.montessori-erding.de/wp-content/uploads/2025/04/Lernen_mit_Montessorimaterial.jpg",
     # Kinder spielen im verschneiten Garten des Kinderhauses
-    "kinderhaus": f"{UP}/2022/10/DSC0227__2_.jpg",
+    "kinderhaus": f"{UP}/2022/10/DSC0241__3_.jpg",
     # Gruppenraum mit offenen Regalen im Kinderhaus
     "raum": f"{UP}/2022/10/DSC0169.jpg",
     # Grünes Klassenzimmer der Schule (2560 px)

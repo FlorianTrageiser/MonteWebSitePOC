@@ -143,7 +143,7 @@
 <!-- wp:group {"className":"place","layout":{"type":"default"}} -->
 <div class="wp-block-group place">
 <!-- wp:image {"sizeSlug":"large","className":"place-img"} -->
-<figure class="wp-block-image size-large place-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0227__2_.jpg" alt="Kinder spielen im Garten des Kinderhauses" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-large place-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0241__3_.jpg" alt="Kinder spielen im Garten des Kinderhauses" loading="lazy" decoding="async"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"place-text","layout":{"type":"default"}} -->
 <div class="wp-block-group place-text">
