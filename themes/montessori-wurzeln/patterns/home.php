@@ -340,7 +340,7 @@
 <p class="news-meta"><span class="tag">Verein</span> <span class="news-date">November 2026</span></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="{{https://www.montessori-erding.de/monte-post/}}">Die neue MontePost ist online</a></h3>
+<h3 class="wp-block-heading"><a href="https://www.montessori-erding.de/monte-post/">Die neue MontePost ist online</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Unsere Zeitung mit Geschichten aus Kinderhaus, Schule und Verein.</p>
@@ -353,7 +353,7 @@
 <p class="news-meta"><span class="tag">Jobs</span> <span class="news-date">Aktuell</span></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="{{https://montessori-erding.de/jobs/}}">Wir suchen eine Lehrkraft (m/w/d) für die Grundschule</a></h3>
+<h3 class="wp-block-heading"><a href="https://montessori-erding.de/jobs/">Wir suchen eine Lehrkraft (m/w/d) für die Grundschule</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Sie möchten Kinder auf ihrem eigenen Weg begleiten? Wir freuen uns auf Ihre Bewerbung.</p>
@@ -366,7 +366,7 @@
 <p class="news-meta"><span class="tag">Verein</span> <span class="news-date">25. Oktober 2026</span></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="{{https://montessori-erding.de/verein/markt-der-kuenste/}}">Rückblick: Markt der Künste</a></h3>
+<h3 class="wp-block-heading"><a href="https://montessori-erding.de/verein/markt-der-kuenste/">Rückblick: Markt der Künste</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Kunstschaffende zeigten ihre Arbeit und boten Handgemachtes an.</p>

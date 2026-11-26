@@ -84,7 +84,7 @@ class H(Node):
 
     def render(self, c):
         cl = ("wp-block-heading " + self.cls).strip()
-        el = f'<h{self.level} class="{cl}">{self.text}</h{self.level}>'
+        el = f'<h{self.level} class="{cl}">{resolve_inline(self.text, c)}</h{self.level}>'
         if c.target == "html":
             return el
         a = {"level": self.level}
