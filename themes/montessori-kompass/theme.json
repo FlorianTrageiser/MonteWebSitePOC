@@ -1,0 +1,110 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": false,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1240px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "white",
+          "name": "White",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "navy",
+          "name": "Navy",
+          "color": "#0f1b33"
+        },
+        {
+          "slug": "blue",
+          "name": "Blue",
+          "color": "#1f56b8"
+        },
+        {
+          "slug": "blue-dark",
+          "name": "Blue Dark",
+          "color": "#174394"
+        },
+        {
+          "slug": "sky",
+          "name": "Sky",
+          "color": "#eaf1fc"
+        },
+        {
+          "slug": "mist",
+          "name": "Mist",
+          "color": "#f4f6fa"
+        },
+        {
+          "slug": "red",
+          "name": "Red",
+          "color": "#d63a25"
+        },
+        {
+          "slug": "ink-soft",
+          "name": "Ink Soft",
+          "color": "#3b465c"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#5d6779"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#e1e6ee"
+        },
+        {
+          "slug": "on-primary",
+          "name": "On Primary",
+          "color": "#fff"
+        },
+        {
+          "slug": "hover",
+          "name": "Hover",
+          "color": "#f0f4fb"
+        },
+        {
+          "slug": "footer-ink",
+          "name": "Footer Ink",
+          "color": "#e8edf6"
+        }
+      ],
+      "defaultPalette": false,
+      "defaultGradients": false
+    },
+    "typography": {
+      "defaultFontSizes": false
+    }
+  },
+  "styles": {
+    "spacing": {
+      "blockGap": "0px",
+      "padding": {
+        "top": "0",
+        "bottom": "0",
+        "left": "0",
+        "right": "0"
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Kopfbereich",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Fußbereich",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": []
+}

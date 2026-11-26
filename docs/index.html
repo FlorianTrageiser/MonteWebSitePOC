@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Website-Entwürfe · Montessori Erding</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/logo-figuren.png">
+<style>
+:root{--bg:#f4f1ec;--ink:#1a1a1a;--muted:#5d5d5d;--card:#fff;--line:#e2ddd5}
+@media (prefers-color-scheme:dark){:root{--bg:#151515;--ink:#f1f1f1;--muted:#b4b4b4;--card:#1f1f1f;--line:#333}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:56px 20px 72px}
+header{display:flex;gap:18px;align-items:center;margin-bottom:12px}
+header img{width:64px;height:auto}
+h1{font-size:clamp(28px,4vw,44px);line-height:1.1;margin:0;letter-spacing:-.02em}
+.intro{color:var(--muted);max-width:60ch;margin:14px 0 40px;font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.ov-card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+ color:inherit;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.ov-card:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(0,0,0,.12)}
+.ov-thumb{display:block;position:relative;aspect-ratio:4/3;overflow:hidden;border-bottom:1px solid var(--line);background:#eee}
+.ov-thumb iframe{position:absolute;top:0;left:0;width:1366px;height:1024px;border:0;transform-origin:0 0;transform:scale(var(--s,.27));pointer-events:none}
+.ov-body{display:flex;flex-direction:column;gap:6px;padding:20px 22px 24px;flex:1}
+.ov-num{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.ov-name{font-size:26px;font-weight:700;letter-spacing:-.01em}
+.ov-claim{font-weight:600}
+.ov-desc{color:var(--muted)}
+.ov-sw{display:flex;gap:6px;margin:8px 0 4px}
+.ov-sw i{width:26px;height:26px;border-radius:50%;border:1px solid rgba(0,0,0,.15)}
+.ov-go{margin-top:auto;padding-top:10px;font-weight:700}
+.note{margin-top:40px;color:var(--muted);font-size:14px;max-width:70ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><img src="assets/logo-figuren.png" alt=""><h1>Neue Website für Montessori Erding</h1></header>
+<p class="intro">Drei Entwürfe mit den echten Inhalten der heutigen Website. Jeder Entwurf hat eine Startseite
+und Unterseiten für Kinderhaus, Schule, Verein, Termine und Kontakt. Einfach anklicken und durchklicken.</p>
+<div class="grid">
+<a class="ov-card" href="v1/index.html">
+  <span class="ov-thumb" aria-hidden="true"><iframe src="v1/index.html" tabindex="-1" loading="lazy" scrolling="no" title="Vorschau Wurzeln"></iframe></span>
+  <span class="ov-body"><span class="ov-num">Entwurf 1</span>
+  <span class="ov-name">Wurzeln</span><span class="ov-claim">Natürlich &amp; warm</span>
+  <span class="ov-desc">Erdige Farben, große Fotos und eine ruhige, redaktionelle Sprache. Erzählt den Weg vom ersten Jahr bis zur Schule.</span><span class="ov-sw"><i style="background:#f6efe3"></i><i style="background:#1f3a2f"></i><i style="background:#c4532f"></i><i style="background:#e9b949"></i></span>
+  <span class="ov-go">Ansehen →</span></span></a><a class="ov-card" href="v2/index.html">
+  <span class="ov-thumb" aria-hidden="true"><iframe src="v2/index.html" tabindex="-1" loading="lazy" scrolling="no" title="Vorschau Kompass"></iframe></span>
+  <span class="ov-body"><span class="ov-num">Entwurf 2</span>
+  <span class="ov-name">Kompass</span><span class="ov-claim">Klar &amp; modern</span>
+  <span class="ov-desc">Hell, aufgeräumt und auf schnelle Orientierung gebaut: Eltern finden in einem Klick, was sie suchen – Platz vormerken, anmelden, Termine.</span><span class="ov-sw"><i style="background:#ffffff"></i><i style="background:#0f1b33"></i><i style="background:#1f56b8"></i><i style="background:#e2412b"></i></span>
+  <span class="ov-go">Ansehen →</span></span></a><a class="ov-card" href="v3/index.html">
+  <span class="ov-thumb" aria-hidden="true"><iframe src="v3/index.html" tabindex="-1" loading="lazy" scrolling="no" title="Vorschau Farbenspiel"></iframe></span>
+  <span class="ov-body"><span class="ov-num">Entwurf 3</span>
+  <span class="ov-name">Farbenspiel</span><span class="ov-claim">Bunt &amp; lebendig</span>
+  <span class="ov-desc">Inspiriert von den Farben des Montessori-Materials: rosa Turm, rote Stangen, goldene Perlen. Fröhlich, verspielt und trotzdem gut lesbar.</span><span class="ov-sw"><i style="background:#fff8ee"></i><i style="background:#ec8fa6"></i><i style="background:#2f62c9"></i><i style="background:#f2b632"></i></span>
+  <span class="ov-go">Ansehen →</span></span></a>
+</div>
+<p class="note">Hinweis: Das sind Entwürfe zur Ansicht. Fotos werden von montessori-erding.de geladen,
+Termine und Texte bitte vor einer Veröffentlichung prüfen. Jeder Entwurf liegt auch als WordPress-Theme im Repository.</p>
+</div>
+<script>
+function fit(){document.querySelectorAll('.ov-thumb').forEach(t=>t.style.setProperty('--s',t.clientWidth/1366))}
+addEventListener('resize',fit);fit();
+</script>
+</body>
+</html>

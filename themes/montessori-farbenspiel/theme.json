@@ -1,0 +1,140 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": false,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1240px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "cream",
+          "name": "Cream",
+          "color": "#fff8ee"
+        },
+        {
+          "slug": "plum",
+          "name": "Plum",
+          "color": "#2a2140"
+        },
+        {
+          "slug": "pink",
+          "name": "Pink",
+          "color": "#ec8fa6"
+        },
+        {
+          "slug": "pink-soft",
+          "name": "Pink Soft",
+          "color": "#fde4ea"
+        },
+        {
+          "slug": "red",
+          "name": "Red",
+          "color": "#c8321f"
+        },
+        {
+          "slug": "blue",
+          "name": "Blue",
+          "color": "#2f62c9"
+        },
+        {
+          "slug": "blue-soft",
+          "name": "Blue Soft",
+          "color": "#e3ecfc"
+        },
+        {
+          "slug": "yellow",
+          "name": "Yellow",
+          "color": "#f2b632"
+        },
+        {
+          "slug": "yellow-soft",
+          "name": "Yellow Soft",
+          "color": "#fdf0cb"
+        },
+        {
+          "slug": "green",
+          "name": "Green",
+          "color": "#3f9a5b"
+        },
+        {
+          "slug": "green-soft",
+          "name": "Green Soft",
+          "color": "#e0f1e4"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "ink-soft",
+          "name": "Ink Soft",
+          "color": "#4a405f"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#6c6280"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#eadfce"
+        },
+        {
+          "slug": "primary-hover",
+          "name": "Primary Hover",
+          "color": "#3b2f59"
+        },
+        {
+          "slug": "on-primary",
+          "name": "On Primary",
+          "color": "#fff"
+        },
+        {
+          "slug": "footer-ink",
+          "name": "Footer Ink",
+          "color": "#fff4e6"
+        },
+        {
+          "slug": "aside-bg",
+          "name": "Aside Bg",
+          "color": "#fff"
+        }
+      ],
+      "defaultPalette": false,
+      "defaultGradients": false
+    },
+    "typography": {
+      "defaultFontSizes": false
+    }
+  },
+  "styles": {
+    "spacing": {
+      "blockGap": "0px",
+      "padding": {
+        "top": "0",
+        "bottom": "0",
+        "left": "0",
+        "right": "0"
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Kopfbereich",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Fußbereich",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": []
+}

@@ -1,0 +1,113 @@
+/* Entwurf 1 · Wurzeln – natürlich & warm */
+:root{
+  --cream: #f6efe3;
+  --paper: #fffaf2;
+  --forest: #1f3a2f;
+  --moss: #4f6b4a;
+  --terracotta: #b8492a;
+  --honey: #e9b949;
+  --sand: #eadcc4;
+  --bg:var(--cream);--surface:var(--paper);--ink:var(--forest);--ink-soft:#3d5247;--muted:#66705f;--line:#e2d5bf;
+  --primary:var(--forest);--primary-hover:#2c4f41;--on-primary:#fffaf2;--accent:var(--terracotta);--link:var(--forest);
+  --kicker:var(--terracotta);--hover:rgba(31,58,47,.07);--img-fallback:linear-gradient(135deg,#d9c7a6,#b9c3a5);
+  --font-head:"Fraunces",Georgia,serif;--font-body:"Figtree",system-ui,sans-serif;--font-event:"Figtree",system-ui,sans-serif;
+  --head-weight:400;--head-tracking:-.025em;--wrap:1240px;
+  --card-radius:20px;--img-radius:24px;--btn-radius:999px;
+  --date-bg:var(--terracotta);--tag-bg:#efe3cd;--tag-ink:var(--forest);
+  --footer-bg:var(--forest);--footer-ink:#f6efe3;--aside-bg:var(--paper);--donate-bg:var(--sand);
+}
+/*BASE*/
+.v1 h1 em,.v1 h2 em{font-style:italic;color:var(--terracotta)}
+.v1 .site-header{background:rgba(246,239,227,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.v1 .brand-name{font-family:var(--font-head);font-weight:500;font-size:1.4rem}
+.v1 .kicker{letter-spacing:.14em}
+.v1 .event-d{font-family:var(--font-head);font-weight:600}
+
+/* Hero */
+.v1 .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,6vw,5.5rem);align-items:center;padding-block:clamp(3rem,6vw,5rem) clamp(4rem,8vw,7rem)}
+.v1 .hero h1{font-size:clamp(3rem,6.4vw,5.6rem);line-height:.98;max-width:11ch}
+.v1 .hero-media{position:relative}
+.v1 .hero-img{aspect-ratio:4/4.6;border-radius:999px 999px 28px 28px}
+.v1 .leaf{position:absolute;width:110px;top:-28px;left:-34px;color:var(--honey);transform:rotate(-8deg)}
+.v1 .hero-note{position:absolute;left:-2.5rem;bottom:2.2rem;background:var(--paper);padding:1.1rem 1.3rem;border-radius:18px;
+  box-shadow:0 24px 50px rgba(31,58,47,.18);max-width:290px}
+.v1 .hero-note .kicker{margin-bottom:.35rem}
+.v1 .hero-note p + p{margin-top:.35rem}
+
+/* Weg */
+.v1 .path-section{background:var(--paper);border-block:1px solid var(--line)}
+.v1 .path{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;position:relative}
+.v1 .path::before{content:"";position:absolute;left:0;right:0;top:.55rem;border-top:2px dashed #cdbb9b}
+.v1 .path-step{position:relative;padding-top:2.4rem}
+.v1 .path-step::before{content:"";position:absolute;top:0;left:0;width:1.2rem;height:1.2rem;border-radius:50%;background:var(--terracotta);box-shadow:0 0 0 6px var(--paper)}
+.v1 .path-step:nth-child(2)::before{background:var(--honey)}
+.v1 .path-step:nth-child(3)::before{background:var(--moss)}
+.v1 .path-step:nth-child(4)::before{background:var(--forest)}
+.v1 .path-age{font-weight:700;font-size:.85rem;color:var(--terracotta);text-transform:uppercase;letter-spacing:.1em}
+.v1 .path-step h3{font-size:1.7rem;margin-top:.4rem}
+.v1 .path-place{font-weight:600;margin-top:.2rem !important}
+.v1 .path-step p:last-child{color:var(--ink-soft);margin-top:.6rem}
+
+/* Einrichtungen */
+.v1 .places{display:grid;gap:clamp(3rem,7vw,6rem)}
+.v1 .place{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,5rem);align-items:center}
+.v1 .place-reverse .place-img{order:2}
+.v1 .place-img{aspect-ratio:5/4}
+.v1 .place:not(.place-reverse) .place-img{border-radius:28px 160px 28px 28px}
+.v1 .place-reverse .place-img{border-radius:160px 28px 28px 28px}
+.v1 .place h2{font-size:clamp(2.4rem,4.5vw,3.6rem)}
+.v1 .place-text > p:not(.kicker){color:var(--ink-soft);font-size:1.12rem;margin-top:1rem;max-width:46ch}
+.v1 .place-mini{background:var(--forest);color:var(--cream);border-radius:28px;padding:clamp(2rem,5vw,3.5rem);display:grid;
+  grid-template-columns:auto 1fr auto;gap:.5rem 3rem;align-items:center}
+.v1 .place-mini h2{color:var(--cream);grid-row:span 2}
+.v1 .place-mini .kicker{grid-column:1;color:var(--honey);margin:0;order:-1}
+.v1 .place-mini > p:not(.kicker){color:#dfe5d9;max-width:52ch}
+.v1 .place-mini .more{color:var(--honey)}
+.v1 .place-mini{grid-template-columns:1fr 1.4fr}
+.v1 .place-mini > *{grid-column:auto}
+.v1 .place-mini .kicker{grid-column:1/-1}
+
+/* Zitat */
+.v1 .quote{background:var(--terracotta);color:#fff7ef;text-align:center}
+.v1 .quote-text{margin:0 auto;max-width:900px}
+.v1 .quote-text p{font-family:var(--font-head);font-style:italic;font-size:clamp(2.1rem,4.6vw,3.8rem);line-height:1.12;letter-spacing:-.02em}
+.v1 .quote-text cite{display:block;margin-top:1.4rem;font-style:normal;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.85rem;opacity:.9}
+
+/* Termine & Aktuelles */
+.v1 .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,5rem)}
+.v1 .split .section-head{margin-bottom:1.6rem}
+.v1 .split h2{font-size:clamp(1.8rem,3vw,2.4rem)}
+.v1 .split .events + p{margin-top:1.4rem}
+.v1 .event{background:var(--paper)}
+
+/* Material */
+.v1 .material-section{background:var(--sand)}
+.v1 .material-item{border-radius:20px}
+
+/* Haltung */
+.v1 .values-section{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2rem,6vw,5rem);align-items:start}
+.v1 .values-text > p:not(.kicker){margin-top:1rem;color:var(--ink-soft);max-width:40ch}
+.v1 .values li{font-family:var(--font-head);font-size:1.45rem}
+
+/* Unterseiten */
+.v1 .page-hero{padding-top:clamp(2.5rem,5vw,4rem) !important}
+.v1 .page-hero .hero-img{border-radius:28px 180px 28px 28px}
+.v1 .fact-n{font-family:var(--font-head);font-weight:500;color:var(--terracotta)}
+.v1 .topic h3{font-size:1.5rem}
+.v1 .admission{background:var(--paper);border-top:1px solid var(--line)}
+.v1 .admission-card{background:var(--cream)}
+
+@media (max-width:1020px){
+  .v1 .hero{grid-template-columns:1fr}
+  .v1 .hero-media{max-width:560px}
+  .v1 .hero-note{left:1rem}
+  .v1 .path{grid-template-columns:1fr 1fr;row-gap:2.5rem}
+  .v1 .path::before{display:none}
+  .v1 .place,.v1 .split,.v1 .values-section,.v1 .place-mini{grid-template-columns:1fr}
+  .v1 .place-reverse .place-img{order:0}
+}
+@media (max-width:560px){
+  .v1 .path{grid-template-columns:1fr}
+  .v1 .leaf{width:70px;left:-10px;top:-20px}
+  .v1 .hero-note{position:relative;left:0;bottom:0;margin:-3rem 1rem 0;max-width:none}
+}

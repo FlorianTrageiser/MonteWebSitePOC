@@ -1,0 +1,115 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": false,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1240px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "cream",
+          "name": "Cream",
+          "color": "#f6efe3"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#fffaf2"
+        },
+        {
+          "slug": "forest",
+          "name": "Forest",
+          "color": "#1f3a2f"
+        },
+        {
+          "slug": "moss",
+          "name": "Moss",
+          "color": "#4f6b4a"
+        },
+        {
+          "slug": "terracotta",
+          "name": "Terracotta",
+          "color": "#b8492a"
+        },
+        {
+          "slug": "honey",
+          "name": "Honey",
+          "color": "#e9b949"
+        },
+        {
+          "slug": "sand",
+          "name": "Sand",
+          "color": "#eadcc4"
+        },
+        {
+          "slug": "ink-soft",
+          "name": "Ink Soft",
+          "color": "#3d5247"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#66705f"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#e2d5bf"
+        },
+        {
+          "slug": "primary-hover",
+          "name": "Primary Hover",
+          "color": "#2c4f41"
+        },
+        {
+          "slug": "on-primary",
+          "name": "On Primary",
+          "color": "#fffaf2"
+        },
+        {
+          "slug": "tag-bg",
+          "name": "Tag Bg",
+          "color": "#efe3cd"
+        },
+        {
+          "slug": "footer-ink",
+          "name": "Footer Ink",
+          "color": "#f6efe3"
+        }
+      ],
+      "defaultPalette": false,
+      "defaultGradients": false
+    },
+    "typography": {
+      "defaultFontSizes": false
+    }
+  },
+  "styles": {
+    "spacing": {
+      "blockGap": "0px",
+      "padding": {
+        "top": "0",
+        "bottom": "0",
+        "left": "0",
+        "right": "0"
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Kopfbereich",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Fußbereich",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": []
+}
