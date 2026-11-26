@@ -95,7 +95,7 @@
 <h2 class="wp-block-heading">Stellenangebote</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"section-intro"} -->
-<p class="section-intro">Offene Stellen in Kinderhaus und Schule veröffentlichen wir auf unserer Jobseite. Derzeit sind alle Stellen besetzt.</p>
+<p class="section-intro">Aktuell suchen wir eine Lehrkraft (m/w/d) für die Grundschule. Alle Details zur Stelle finden Sie auf unserer Jobseite.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

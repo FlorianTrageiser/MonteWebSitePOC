@@ -331,3 +331,6 @@ main > section, .wp-block-post-content > section{padding-block:var(--section-y,c
   .v1 .leaf{width:70px;left:-10px;top:-20px}
   .v1 .hero-note{position:relative;left:0;bottom:0;margin:-3rem 1rem 0;max-width:none}
 }
+.v1 .notice{margin-top:1.8rem !important}
+.v1 .notice .more{font-weight:500;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:.45rem 1rem}
+.v1 .notice strong{color:var(--terracotta)}

@@ -75,6 +75,9 @@ EVENTS = [
 ]
 
 NEWS = [
+    {"tag": "Jobs", "date": "Aktuell", "title": "Wir suchen eine Lehrkraft (m/w/d) für die Grundschule",
+     "text": "Sie möchten Kinder auf ihrem eigenen Weg begleiten? Wir freuen uns auf Ihre Bewerbung.",
+     "url": "https://montessori-erding.de/jobs/"},
     {"tag": "Verein", "date": "November 2026", "title": "Die neue MontePost ist online",
      "text": "Unsere Zeitung mit Geschichten aus Kinderhaus, Schule und Verein – für Mitglieder nach dem Login.",
      "url": "https://www.montessori-erding.de/monte-post/"},

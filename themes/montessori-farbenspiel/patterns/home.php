@@ -66,7 +66,7 @@
 <!-- wp:group {"className":"ticker","layout":{"type":"default"}} -->
 <div class="wp-block-group ticker">
 <!-- wp:html -->
-<p class="ticker-text"><span>Tag der offenen Tür Schule · 23. Januar 2027</span><span>✦</span><span>Infoabend · 28. Januar 2027</span><span>✦</span><span>Tag der offenen Tür Kinderhaus · 6. Februar 2027</span><span>✦</span><span>Schnuppertage ab 23. Februar 2027</span><span>✦</span><span aria-hidden="true">Tag der offenen Tür Schule · 23. Januar 2027</span><span aria-hidden="true">✦</span><span aria-hidden="true">Infoabend · 28. Januar 2027</span><span aria-hidden="true">✦</span><span aria-hidden="true">Tag der offenen Tür Kinderhaus · 6. Februar 2027</span><span aria-hidden="true">✦</span><span aria-hidden="true">Schnuppertage ab 23. Februar 2027</span><span aria-hidden="true">✦</span></p>
+<p class="ticker-text"><span>Tag der offenen Tür Schule · 23. Januar 2027</span><span>✦</span><span>Infoabend · 28. Januar 2027</span><span>✦</span><span>Tag der offenen Tür Kinderhaus · 6. Februar 2027</span><span>✦</span><span>Wir suchen eine Lehrkraft (m/w/d) für die Grundschule</span><span>✦</span><span aria-hidden="true">Tag der offenen Tür Schule · 23. Januar 2027</span><span aria-hidden="true">✦</span><span aria-hidden="true">Infoabend · 28. Januar 2027</span><span aria-hidden="true">✦</span><span aria-hidden="true">Tag der offenen Tür Kinderhaus · 6. Februar 2027</span><span aria-hidden="true">✦</span><span aria-hidden="true">Wir suchen eine Lehrkraft (m/w/d) für die Grundschule</span><span aria-hidden="true">✦</span></p>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
@@ -320,6 +320,19 @@
 <!-- wp:group {"className":"news-card","layout":{"type":"default"}} -->
 <div class="wp-block-group news-card">
 <!-- wp:paragraph {"className":"news-meta"} -->
+<p class="news-meta"><span class="tag">Jobs</span> <span class="news-date">Aktuell</span></p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="https://montessori-erding.de/jobs/">Wir suchen eine Lehrkraft (m/w/d) für die Grundschule</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Sie möchten Kinder auf ihrem eigenen Weg begleiten? Wir freuen uns auf Ihre Bewerbung.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"news-card","layout":{"type":"default"}} -->
+<div class="wp-block-group news-card">
+<!-- wp:paragraph {"className":"news-meta"} -->
 <p class="news-meta"><span class="tag">Verein</span> <span class="news-date">November 2026</span></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
@@ -353,19 +366,6 @@
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Kunstschaffende zeigten in der Schule Aufkirchen ihre Arbeit und boten Handgemachtes an.</p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-<!-- wp:group {"className":"news-card","layout":{"type":"default"}} -->
-<div class="wp-block-group news-card">
-<!-- wp:paragraph {"className":"news-meta"} -->
-<p class="news-meta"><span class="tag">Schule</span> <span class="news-date">Juli 2025</span></p>
-<!-- /wp:paragraph -->
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="https://montessori-erding.de/bericht-zum-11-erdinger-schulschachcup-am-16-juli-2025/">11. Erdinger Schulschachcup</a></h3>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p>Über 110 Schülerinnen und Schüler kamen zum Turnier zusammen.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

@@ -193,8 +193,8 @@ def kontakt_page(decor=None):
           G("contact-grid", *[contact_card(i) for i in range(3)]), tag="section"),
         G("page-section",
           section_head("Arbeiten bei uns", "Stellenangebote",
-                       "Offene Stellen in Kinderhaus und Schule veröffentlichen wir auf unserer Jobseite. "
-                       "Derzeit sind alle Stellen besetzt."),
+                       "Aktuell suchen wir eine Lehrkraft (m/w/d) für die Grundschule. "
+                       "Alle Details zur Stelle finden Sie auf unserer Jobseite."),
           Buttons([("Zu den Stellenangeboten", "https://montessori-erding.de/jobs/", "secondary")]),
           tag="section"),
     ]

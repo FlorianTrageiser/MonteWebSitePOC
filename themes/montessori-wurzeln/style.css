@@ -344,6 +344,9 @@ h1 em,h2 em{font-style:italic;color:var(--terracotta)}
   .leaf{width:70px;left:-10px;top:-20px}
   .hero-note{position:relative;left:0;bottom:0;margin:-3rem 1rem 0;max-width:none}
 }
+.notice{margin-top:1.8rem !important}
+.notice .more{font-weight:500;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:.45rem 1rem}
+.notice strong{color:var(--terracotta)}
 
 /* WordPress-Anpassungen */
 .wp-site-blocks{padding:0}

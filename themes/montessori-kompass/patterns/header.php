@@ -12,7 +12,7 @@
 <!-- wp:group {"className":"topbar","layout":{"type":"default"}} -->
 <div class="wp-block-group topbar">
 <!-- wp:paragraph {"className":"topbar-msg"} -->
-<p class="topbar-msg"><span class="pill">Schulaufnahme</span> Anmeldeschluss für die erste Klasse 2027/28: 3. Februar 2027 <a class="more" href="/termine/#aufnahme">Zur Aufnahme</a></p>
+<p class="topbar-msg"><span class="pill">Wir suchen</span> eine Lehrkraft (m/w/d) für die Grundschule <a class="more" href="https://montessori-erding.de/jobs/">Zur Stelle</a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topbar-links"} -->
 <p class="topbar-links"><a href="https://www.montemanager.de/login.php">MonteManager</a> · <a href="/kontakt/">Kontakt</a></p>

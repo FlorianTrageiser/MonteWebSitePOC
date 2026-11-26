@@ -29,6 +29,9 @@
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
+<!-- wp:paragraph {"className":"notice"} -->
+<p class="notice"><a class="more" href="https://montessori-erding.de/jobs/"><strong>Wir suchen</strong> eine Lehrkraft (m/w/d) für die Grundschule</a></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"hero-media","layout":{"type":"default"}} -->
@@ -337,6 +340,19 @@
 <!-- wp:group {"className":"news-card","layout":{"type":"default"}} -->
 <div class="wp-block-group news-card">
 <!-- wp:paragraph {"className":"news-meta"} -->
+<p class="news-meta"><span class="tag">Jobs</span> <span class="news-date">Aktuell</span></p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="https://montessori-erding.de/jobs/">Wir suchen eine Lehrkraft (m/w/d) für die Grundschule</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Sie möchten Kinder auf ihrem eigenen Weg begleiten? Wir freuen uns auf Ihre Bewerbung.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"news-card","layout":{"type":"default"}} -->
+<div class="wp-block-group news-card">
+<!-- wp:paragraph {"className":"news-meta"} -->
 <p class="news-meta"><span class="tag">Verein</span> <span class="news-date">November 2026</span></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
@@ -357,19 +373,6 @@
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Mit Festakt und Schulfest haben wir das Jubiläum unserer Schule gefeiert.</p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-<!-- wp:group {"className":"news-card","layout":{"type":"default"}} -->
-<div class="wp-block-group news-card">
-<!-- wp:paragraph {"className":"news-meta"} -->
-<p class="news-meta"><span class="tag">Verein</span> <span class="news-date">25. Oktober 2026</span></p>
-<!-- /wp:paragraph -->
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="https://montessori-erding.de/verein/markt-der-kuenste/">Markt der Künste 2026</a></h3>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p>Kunstschaffende zeigten in der Schule Aufkirchen ihre Arbeit und boten Handgemachtes an.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

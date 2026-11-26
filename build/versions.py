@@ -23,7 +23,8 @@ def v1_home():
             P("Vom ersten Entdecken in der Krippe bis zum selbstständigen Lernen in der Schule "
               "begleiten wir Kinder – und ihre Familien.", "lead"),
             Buttons([("Unsere Einrichtungen", "#einrichtungen", "primary"),
-                     ("Termine & Aufnahme", "termine", "secondary")])),
+                     ("Termine & Aufnahme", "termine", "secondary")]),
+            P(A("<strong>Wir suchen</strong> eine Lehrkraft (m/w/d) für die Grundschule", "https://montessori-erding.de/jobs/", "more"), "notice")),
           G("hero-media",
             Img(IMG["hero"], "Kinder lernen mit Montessori-Material", "hero-img", eager=True),
             Raw(ARCH),
@@ -96,8 +97,8 @@ def v1_home():
 # ------------------------------------------------------------------
 def topbar():
     return G("topbar",
-             P(f'<span class="pill">Schulaufnahme</span> Anmeldeschluss für die erste Klasse 2027/28: 3. Februar 2027 '
-               f'{A("Zur Aufnahme", "termine#aufnahme", "more")}', "topbar-msg"),
+             P(f'<span class="pill">Wir suchen</span> eine Lehrkraft (m/w/d) für die Grundschule '
+               f'{A("Zur Stelle", "https://montessori-erding.de/jobs/", "more")}', "topbar-msg"),
              P(f'{A("MonteManager", "https://www.montemanager.de/login.php")} · {A("Kontakt", "kontakt")}', "topbar-links"))
 
 
@@ -227,7 +228,7 @@ MINI = {
 
 TICKER = ('<span>Tag der offenen Tür Schule · 23. Januar 2027</span><span>✦</span>'
           '<span>Infoabend · 28. Januar 2027</span><span>✦</span><span>Tag der offenen Tür Kinderhaus · 6. Februar 2027</span>'
-          '<span>✦</span><span>Schnuppertage ab 23. Februar 2027</span><span>✦</span>')
+          '<span>✦</span><span>Wir suchen eine Lehrkraft (m/w/d) für die Grundschule</span><span>✦</span>')
 
 
 def v3_home():
