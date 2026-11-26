@@ -51,7 +51,7 @@ def v1_home():
           G("place place-reverse",
             Img(IMG["schule"], "Das grüne Klassenzimmer der Schule", "place-img"),
             G("place-text",
-              P("Aufkirchen · Volksschule", "kicker"),
+              P("Aufkirchen · 1. bis 10. Jahrgang", "kicker"),
               H(2, "Schule"),
               P("Altersgemischte Klassen, Freiarbeit und ein grünes Klassenzimmer: Hier übernehmen Kinder "
                 "Verantwortung für ihr Lernen – und füreinander."),
@@ -96,8 +96,8 @@ def v1_home():
 # ------------------------------------------------------------------
 def topbar():
     return G("topbar",
-             P(f'<span class="pill">Wir suchen</span> eine Lehrkraft (m/w/d) für die Grundschule '
-               f'{A("Zur Stelle", "https://montessori-erding.de/jobs/", "more")}', "topbar-msg"),
+             P(f'<span class="pill">Schulaufnahme</span> Anmeldeschluss für die erste Klasse 2027/28: 3. Februar 2027 '
+               f'{A("Zur Aufnahme", "termine#aufnahme", "more")}', "topbar-msg"),
              P(f'{A("MonteManager", "https://www.montemanager.de/login.php")} · {A("Kontakt", "kontakt")}', "topbar-links"))
 
 
@@ -120,7 +120,7 @@ def v2_home():
           G("hero-text",
             P("Kinderhaus Erding · Schule Aufkirchen", "kicker"),
             H(1, "Montessori im Landkreis Erding"),
-            P("Vom ersten Lebensjahr bis in die Schule: Kinder lernen bei uns selbstständig, "
+            P("Vom ersten Lebensjahr bis zum Schulabschluss: Kinder lernen bei uns selbstständig, "
               "in ihrem Tempo und in einer starken Gemeinschaft.", "lead"),
             G("hero-stats",
               P("<strong>ab 1 Jahr</strong><span>Krippe</span>"),
@@ -151,7 +151,7 @@ def v2_home():
                    "Krippe und Kindergarten für Kinder vom ersten Lebensjahr bis zur Einschulung.",
                    ["2 inklusive Krippengruppen", "4 Kindergartengruppen", "Passivhaus mit Garten"], "kinderhaus"),
                   (IMG["schule"], "Grünes Klassenzimmer der Schule Aufkirchen", "Aufkirchen", "Schule",
-                   "Staatlich anerkannte Volksschule mit altersgemischten Klassen und Freiarbeit.",
+                   "Montessori-Volksschule vom 1. bis zum 10. Jahrgang – mit altersgemischten Klassen und Freiarbeit.",
                    ["Unterricht 8:30 – 12:45 Uhr", "Ganztag mit Mittagsvilla", "4 Schulbuslinien"], "schule"),
                   (IMG["hero"], "Kinder lernen mit Montessori-Material", "Landkreis Erding", "Verein",
                    "Der Montessori-Verein ist Träger von Kinderhaus und Schule.",
@@ -227,7 +227,7 @@ MINI = {
 
 TICKER = ('<span>Tag der offenen Tür Schule · 23. Januar 2027</span><span>✦</span>'
           '<span>Infoabend · 28. Januar 2027</span><span>✦</span><span>Tag der offenen Tür Kinderhaus · 6. Februar 2027</span>'
-          '<span>✦</span><span>Wir suchen eine Lehrkraft (m/w/d)</span><span>✦</span>')
+          '<span>✦</span><span>Schnuppertage ab 23. Februar 2027</span><span>✦</span>')
 
 
 def v3_home():

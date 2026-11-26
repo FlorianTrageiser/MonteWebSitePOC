@@ -119,6 +119,46 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
+<!-- wp:group {"className":"event","layout":{"type":"default"}} -->
+<div class="wp-block-group event">
+<!-- wp:html -->
+<div class="event-date"><span class="event-d">23</span><span class="event-m">Feb</span></div>
+<!-- /wp:html -->
+<!-- wp:group {"className":"event-body","layout":{"type":"default"}} -->
+<div class="wp-block-group event-body">
+<!-- wp:paragraph {"className":"event-meta"} -->
+<p class="event-meta"><span class="tag tag-aufnahme">Aufnahme</span> Dienstag, 14 – 15:30 Uhr</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Schnuppertag für neue Erstklässler</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"event-place"} -->
+<p class="event-place">Weitere Termine: 25. Februar und 3. März</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"event","layout":{"type":"default"}} -->
+<div class="wp-block-group event">
+<!-- wp:html -->
+<div class="event-date"><span class="event-d">13</span><span class="event-m">Mär</span></div>
+<!-- /wp:html -->
+<!-- wp:group {"className":"event-body","layout":{"type":"default"}} -->
+<div class="wp-block-group event-body">
+<!-- wp:paragraph {"className":"event-meta"} -->
+<p class="event-meta"><span class="tag tag-aufnahme">Aufnahme</span> Samstag, 10 – 15 Uhr</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Elternseminar zur Schulaufnahme (ohne Kinder)</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"event-place"} -->
+<p class="event-place">Teil der Aufnahme in die erste Klasse</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 </section>
@@ -178,13 +218,13 @@
 <!-- wp:list {"className":"steps"} -->
 <ul class="wp-block-list steps">
 <!-- wp:list-item -->
-<li>Tag der offenen Tür am 23. Januar 2027 besuchen.</li>
+<li>Tag der offenen Tür am 23. Januar 2027 und Infoabend am 28. Januar 2027 um 19 Uhr besuchen – beides ist Voraussetzung für die Aufnahme.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Infoabend am 28. Januar 2027 um 19 Uhr.</li>
+<li>Voranmeldebogen bis zum 3. Februar 2027 abgeben (Bearbeitungsgebühr 50 €).</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Voranmeldebogen bis zum 3. Februar 2027 abgeben.</li>
+<li>Schnuppertag (23. Februar, 25. Februar oder 3. März) und Elternseminar am 13. März 2027.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

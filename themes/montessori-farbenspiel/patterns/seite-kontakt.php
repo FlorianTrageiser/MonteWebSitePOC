@@ -54,7 +54,7 @@
 <h3 class="wp-block-heading">Schule Aufkirchen</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"contact-sub"} -->
-<p class="contact-sub">Staatlich anerkannte Volksschule</p>
+<p class="contact-sub">Montessori-Volksschule · 1. bis 10. Jahrgang</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
 <p>Pfarrer-Mittermair-Str. 75<br/>85445 Aufkirchen</p>
@@ -95,7 +95,7 @@
 <h2 class="wp-block-heading">Stellenangebote</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"section-intro"} -->
-<p class="section-intro">Aktuell suchen wir eine Lehrkraft (m/w/d) für die Grundschule. Initiativbewerbungen sind ebenfalls willkommen.</p>
+<p class="section-intro">Offene Stellen in Kinderhaus und Schule veröffentlichen wir auf unserer Jobseite. Derzeit sind alle Stellen besetzt.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

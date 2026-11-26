@@ -114,7 +114,7 @@
 <p class="path-place">Schule Aufkirchen</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
-<p>Altersgemischte Klassen, Freiarbeit und gemeinsamer Unterricht.</p>
+<p>Vom 1. bis zum 10. Jahrgang: altersgemischte Klassen und Freiarbeit.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -130,7 +130,7 @@
 <p class="path-place">z. B. Montessori-FOS München</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
-<p>An der Gründung der Fachoberschule war unsere Schule beteiligt.</p>
+<p>Der Verein hat die Fachoberschule 2007 mit anderen Montessori-Vereinen gegründet.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -184,7 +184,7 @@
 <!-- wp:group {"className":"place-text","layout":{"type":"default"}} -->
 <div class="wp-block-group place-text">
 <!-- wp:paragraph {"className":"kicker"} -->
-<p class="kicker">Aufkirchen · Volksschule</p>
+<p class="kicker">Aufkirchen · 1. bis 10. Jahrgang</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
 <h2 class="wp-block-heading">Schule</h2>
@@ -343,20 +343,20 @@
 <h3 class="wp-block-heading"><a href="https://www.montessori-erding.de/monte-post/">Die neue MontePost ist online</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Unsere Zeitung mit Geschichten aus Kinderhaus, Schule und Verein.</p>
+<p>Unsere Zeitung mit Geschichten aus Kinderhaus, Schule und Verein – für Mitglieder nach dem Login.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"news-card","layout":{"type":"default"}} -->
 <div class="wp-block-group news-card">
 <!-- wp:paragraph {"className":"news-meta"} -->
-<p class="news-meta"><span class="tag">Jobs</span> <span class="news-date">Aktuell</span></p>
+<p class="news-meta"><span class="tag">Schule</span> <span class="news-date">Juli 2024</span></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="https://montessori-erding.de/jobs/">Wir suchen eine Lehrkraft (m/w/d) für die Grundschule</a></h3>
+<h3 class="wp-block-heading"><a href="https://montessori-erding.de/schule/neuigkeiten/">30 Jahre Montessori-Volksschule Aufkirchen</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Sie möchten Kinder auf ihrem eigenen Weg begleiten? Wir freuen uns auf Ihre Bewerbung.</p>
+<p>Mit Festakt und Schulfest haben wir das Jubiläum unserer Schule gefeiert.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -366,10 +366,10 @@
 <p class="news-meta"><span class="tag">Verein</span> <span class="news-date">25. Oktober 2026</span></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="https://montessori-erding.de/verein/markt-der-kuenste/">Rückblick: Markt der Künste</a></h3>
+<h3 class="wp-block-heading"><a href="https://montessori-erding.de/verein/markt-der-kuenste/">Markt der Künste 2026</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Kunstschaffende zeigten ihre Arbeit und boten Handgemachtes an.</p>
+<p>Kunstschaffende zeigten in der Schule Aufkirchen ihre Arbeit und boten Handgemachtes an.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

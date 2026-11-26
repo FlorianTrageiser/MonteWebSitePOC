@@ -42,7 +42,7 @@ CONTACTS = [
     },
     {
         "name": "Schule Aufkirchen",
-        "sub": "Staatlich anerkannte Volksschule",
+        "sub": "Montessori-Volksschule · 1. bis 10. Jahrgang",
         "street": "Pfarrer-Mittermair-Str. 75",
         "city": "85445 Aufkirchen",
         "phone": "08122 50 52",
@@ -68,17 +68,21 @@ EVENTS = [
      "title": "Anmeldeschluss erste Klasse 2027/28", "place": "Schule Aufkirchen", "tag": "Aufnahme"},
     {"d": "06", "m": "Feb", "y": "2027", "wd": "Samstag", "time": "10 – 13 Uhr",
      "title": "Tag der offenen Tür im Kinderhaus", "place": "Kinderhaus Erding", "tag": "Kinderhaus"},
+    {"d": "23", "m": "Feb", "y": "2027", "wd": "Dienstag", "time": "14 – 15:30 Uhr",
+     "title": "Schnuppertag für neue Erstklässler", "place": "Weitere Termine: 25. Februar und 3. März", "tag": "Aufnahme"},
+    {"d": "13", "m": "Mär", "y": "2027", "wd": "Samstag", "time": "10 – 15 Uhr",
+     "title": "Elternseminar zur Schulaufnahme (ohne Kinder)", "place": "Teil der Aufnahme in die erste Klasse", "tag": "Aufnahme"},
 ]
 
 NEWS = [
     {"tag": "Verein", "date": "November 2026", "title": "Die neue MontePost ist online",
-     "text": "Unsere Zeitung mit Geschichten aus Kinderhaus, Schule und Verein.",
+     "text": "Unsere Zeitung mit Geschichten aus Kinderhaus, Schule und Verein – für Mitglieder nach dem Login.",
      "url": "https://www.montessori-erding.de/monte-post/"},
-    {"tag": "Jobs", "date": "Aktuell", "title": "Wir suchen eine Lehrkraft (m/w/d) für die Grundschule",
-     "text": "Sie möchten Kinder auf ihrem eigenen Weg begleiten? Wir freuen uns auf Ihre Bewerbung.",
-     "url": "https://montessori-erding.de/jobs/"},
-    {"tag": "Verein", "date": "25. Oktober 2026", "title": "Rückblick: Markt der Künste",
-     "text": "Kunstschaffende zeigten ihre Arbeit und boten Handgemachtes an.",
+    {"tag": "Schule", "date": "Juli 2024", "title": "30 Jahre Montessori-Volksschule Aufkirchen",
+     "text": "Mit Festakt und Schulfest haben wir das Jubiläum unserer Schule gefeiert.",
+     "url": "https://montessori-erding.de/schule/neuigkeiten/"},
+    {"tag": "Verein", "date": "25. Oktober 2026", "title": "Markt der Künste 2026",
+     "text": "Kunstschaffende zeigten in der Schule Aufkirchen ihre Arbeit und boten Handgemachtes an.",
      "url": "https://montessori-erding.de/verein/markt-der-kuenste/"},
     {"tag": "Schule", "date": "Juli 2025", "title": "11. Erdinger Schulschachcup",
      "text": "Über 110 Schülerinnen und Schüler kamen zum Turnier zusammen.",
@@ -100,9 +104,9 @@ PATH = [
     {"age": "3 – 6 Jahre", "name": "Kindergarten", "place": "Kinderhaus Erding",
      "text": "Vier Gruppen, Morgenkreis, Freiarbeit und viel Zeit im Garten.", "page": "kinderhaus"},
     {"age": "ab 6 Jahren", "name": "Schule", "place": "Schule Aufkirchen",
-     "text": "Altersgemischte Klassen, Freiarbeit und gemeinsamer Unterricht.", "page": "schule"},
+     "text": "Vom 1. bis zum 10. Jahrgang: altersgemischte Klassen und Freiarbeit.", "page": "schule"},
     {"age": "danach", "name": "Weiterführend", "place": "z. B. Montessori-FOS München",
-     "text": "An der Gründung der Fachoberschule war unsere Schule beteiligt.", "page": "schule"},
+     "text": "Der Verein hat die Fachoberschule 2007 mit anderen Montessori-Vereinen gegründet.", "page": "schule"},
 ]
 
 PAGES = {
@@ -156,12 +160,12 @@ PAGES = {
         "nav": "Schule",
         "kicker": "Schule Aufkirchen",
         "title": "Unsere Schule",
-        "lead": "Eine staatlich anerkannte Volksschule in freier Trägerschaft. Kinder lernen in "
+        "lead": "Eine staatlich anerkannte Montessori-Volksschule vom 1. bis zum 10. Jahrgang. Kinder lernen in "
                 "altersgemischten Klassen – mit Freiarbeit, Verantwortung und Gemeinschaft.",
         "img": IMG["schule"],
         "img_alt": "Das grüne Klassenzimmer der Montessori-Schule",
-        "facts": [("8:30", "bis 12:45 Uhr Vormittagsunterricht"), ("1–3", "Jahrgang mit Mittagsvilla"),
-                  ("4", "Schulbuslinien"), ("30", "Jahre Montessori-Schule")],
+        "facts": [("1–10", "Jahrgangsstufen unter einem Dach"), ("8:30", "bis 12:45 Uhr Unterricht am Vormittag"),
+                  ("1–3", "Jahrgang mit Mittagsvilla"), ("4", "Schulbuslinien")],
         "cta": ("Alles zur Schulaufnahme", "termine.html#aufnahme"),
         "sections": [
             {"title": "Unterricht",
@@ -188,7 +192,7 @@ PAGES = {
              "links": [("AckerSchule", "https://montessori-erding.de/schule/bildung-fuer-nachhaltige-entwicklung/ackerschule/")]},
             {"title": "Bildungsweg",
              "text": "Auf das Kinderhaus folgen die Schulstufen in Aufkirchen. Eine weiterführende Möglichkeit "
-                     "ist die Montessori-Fachoberschule München, an deren Gründung unsere Schule beteiligt war.",
+                     "ist die Montessori-Fachoberschule München, die unser Verein 2007 gemeinsam mit anderen Montessori-Vereinen gegründet hat.",
              "links": [("mos-muenchen.de", "https://www.mos-muenchen.de/")]},
         ],
         "docs": [

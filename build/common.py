@@ -172,9 +172,10 @@ def termine_page(decor=None):
             G("admission-card",
               P("Schule Aufkirchen · ab 6 Jahren", "kicker"),
               H(3, "Erste Klasse 2027/28"),
-              UL(["Tag der offenen Tür am 23. Januar 2027 besuchen.",
-                  "Infoabend am 28. Januar 2027 um 19 Uhr.",
-                  "Voranmeldebogen bis zum 3. Februar 2027 abgeben."], "steps"),
+              UL(["Tag der offenen Tür am 23. Januar 2027 und Infoabend am 28. Januar 2027 um 19 Uhr besuchen – "
+                  "beides ist Voraussetzung für die Aufnahme.",
+                  "Voranmeldebogen bis zum 3. Februar 2027 abgeben (Bearbeitungsgebühr 50 €).",
+                  "Schnuppertag (23. Februar, 25. Februar oder 3. März) und Elternseminar am 13. März 2027."], "steps"),
               doc_list(SCHOOL_DOCS))),
           tag="section", id="aufnahme"),
     ]
@@ -192,8 +193,8 @@ def kontakt_page(decor=None):
           G("contact-grid", *[contact_card(i) for i in range(3)]), tag="section"),
         G("page-section",
           section_head("Arbeiten bei uns", "Stellenangebote",
-                       "Aktuell suchen wir eine Lehrkraft (m/w/d) für die Grundschule. "
-                       "Initiativbewerbungen sind ebenfalls willkommen."),
+                       "Offene Stellen in Kinderhaus und Schule veröffentlichen wir auf unserer Jobseite. "
+                       "Derzeit sind alle Stellen besetzt."),
           Buttons([("Zu den Stellenangeboten", "https://montessori-erding.de/jobs/", "secondary")]),
           tag="section"),
     ]

@@ -45,7 +45,7 @@
 <h3 class="wp-block-heading">Schule Aufkirchen</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"contact-sub"} -->
-<p class="contact-sub">Staatlich anerkannte Volksschule</p>
+<p class="contact-sub">Montessori-Volksschule · 1. bis 10. Jahrgang</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
 <p>Pfarrer-Mittermair-Str. 75<br/>85445 Aufkirchen</p>

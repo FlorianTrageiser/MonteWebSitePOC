@@ -19,7 +19,7 @@
 <h1 class="wp-block-heading">Unsere Schule</h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"lead"} -->
-<p class="lead">Eine staatlich anerkannte Volksschule in freier Trägerschaft. Kinder lernen in altersgemischten Klassen – mit Freiarbeit, Verantwortung und Gemeinschaft.</p>
+<p class="lead">Eine staatlich anerkannte Montessori-Volksschule vom 1. bis zum 10. Jahrgang. Kinder lernen in altersgemischten Klassen – mit Freiarbeit, Verantwortung und Gemeinschaft.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons ">
@@ -50,10 +50,20 @@
 <!-- wp:group {"className":"fact","layout":{"type":"default"}} -->
 <div class="wp-block-group fact">
 <!-- wp:paragraph {"className":"fact-n"} -->
+<p class="fact-n">1–10</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"fact-t"} -->
+<p class="fact-t">Jahrgangsstufen unter einem Dach</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"fact","layout":{"type":"default"}} -->
+<div class="wp-block-group fact">
+<!-- wp:paragraph {"className":"fact-n"} -->
 <p class="fact-n">8:30</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"fact-t"} -->
-<p class="fact-t">bis 12:45 Uhr Vormittagsunterricht</p>
+<p class="fact-t">bis 12:45 Uhr Unterricht am Vormittag</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -74,16 +84,6 @@
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"fact-t"} -->
 <p class="fact-t">Schulbuslinien</p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-<!-- wp:group {"className":"fact","layout":{"type":"default"}} -->
-<div class="wp-block-group fact">
-<!-- wp:paragraph {"className":"fact-n"} -->
-<p class="fact-n">30</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"className":"fact-t"} -->
-<p class="fact-t">Jahre Montessori-Schule</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -170,7 +170,7 @@
 <h3 class="wp-block-heading">Bildungsweg</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Auf das Kinderhaus folgen die Schulstufen in Aufkirchen. Eine weiterführende Möglichkeit ist die Montessori-Fachoberschule München, an deren Gründung unsere Schule beteiligt war.</p>
+<p>Auf das Kinderhaus folgen die Schulstufen in Aufkirchen. Eine weiterführende Möglichkeit ist die Montessori-Fachoberschule München, die unser Verein 2007 gemeinsam mit anderen Montessori-Vereinen gegründet hat.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"topic-links"} -->
 <p class="topic-links"><a class="more" href="https://www.mos-muenchen.de/">mos-muenchen.de</a></p>
@@ -220,7 +220,7 @@
 <h3 class="wp-block-heading">Schule Aufkirchen</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"contact-sub"} -->
-<p class="contact-sub">Staatlich anerkannte Volksschule</p>
+<p class="contact-sub">Montessori-Volksschule · 1. bis 10. Jahrgang</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
 <p>Pfarrer-Mittermair-Str. 75<br/>85445 Aufkirchen</p>
