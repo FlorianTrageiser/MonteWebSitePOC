@@ -1,0 +1,23 @@
+<!-- wp:template-part {"slug":"header","area":"header","tagName":"div"} /-->
+<!-- wp:group {"tagName":"main","anchor":"main","className":"article","layout":{"type":"default"}} -->
+<main id="main" class="wp-block-group article">
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Aktuelles</h1>
+<!-- /wp:heading -->
+<!-- wp:query {"queryId":1,"query":{"perPage":10,"postType":"post","inherit":true},"className":"news-grid"} -->
+<div class="wp-block-query news-grid">
+<!-- wp:post-template -->
+<!-- wp:group {"className":"news-card","layout":{"type":"default"}} -->
+<div class="wp-block-group news-card">
+<!-- wp:post-date {"className":"news-meta"} /-->
+<!-- wp:post-title {"level":3,"isLink":true} /-->
+<!-- wp:post-excerpt /-->
+</div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-pagination /-->
+</div>
+<!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"div"} /-->

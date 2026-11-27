@@ -215,3 +215,25 @@ class Nav(Node):
         return (f'<nav class="{self.cls}" aria-label="Hauptmenü">'
                 f'<details class="nav-toggle"><summary aria-label="Menü öffnen"><span></span><span></span><span></span></summary>'
                 f'<ul>{lis}</ul></details><ul class="nav-desktop">{lis}</ul></nav>')
+
+
+class Details(Node):
+    """Aufklappbarer Abschnitt (wp:details)."""
+
+    def __init__(self, summary, *children, cls="", open=False):
+        self.summary, self.children, self.cls, self.open = summary, children, cls, open
+
+    def render(self, c):
+        inner = R(list(self.children), c)
+        op = " open" if self.open else ""
+        cl = ("wp-block-details " + self.cls).strip()
+        el = f'<details class="{cl}"{op}><summary>{self.summary}</summary>\n{inner}\n</details>'
+        if c.target == "html":
+            return el
+        a = {}
+        if self.cls:
+            a["className"] = self.cls
+        if self.open:
+            a["showContent"] = True
+        aj = " " + attrs_json(a) if a else ""
+        return f"<!-- wp:details{aj} -->\n{el}\n<!-- /wp:details -->"

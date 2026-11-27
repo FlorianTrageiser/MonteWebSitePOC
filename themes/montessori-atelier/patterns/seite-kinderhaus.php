@@ -1,0 +1,279 @@
+<?php
+/**
+ * Title: Seite: Kinderhaus
+ * Slug: montessori-atelier/seite-kinderhaus
+ * Categories: montessori
+ * Inserter: yes
+ * Post Types: page
+ * Block Types: core/post-content
+ */
+?>
+<!-- wp:group {"className":"page-cover","layout":{"type":"default"},"tagName":"section"} -->
+<section class="wp-block-group page-cover">
+<!-- wp:paragraph {"className":"kicker"} -->
+<p class="kicker">Kinderhaus Erding</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Unser Kinderhaus</h1>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"cover-cols","layout":{"type":"default"}} -->
+<div class="wp-block-group cover-cols">
+<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Ein Lebensraum für Kinder vom ersten Lebensjahr bis zur Einschulung – und für ihre Eltern, Pädagoginnen, Pädagogen und Therapeuten.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons ">
+<!-- wp:button {"className":"is-style-primary"} -->
+<div class="wp-block-button is-style-primary"><a class="wp-block-button__link wp-element-button" href="https://portal.little-bird.de/erding">Platz über Little Bird vormerken</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"className":"is-style-secondary"} -->
+<div class="wp-block-button is-style-secondary"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Kontakt</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+<!-- wp:image {"sizeSlug":"large","className":"cover-img"} -->
+<figure class="wp-block-image size-large cover-img"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/DSC0169.jpg" alt="Gruppenraum mit offenen Regalen im Kinderhaus" decoding="async"/></figure>
+<!-- /wp:image -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"fact-line","layout":{"type":"default"},"tagName":"section"} -->
+<section class="wp-block-group fact-line">
+<!-- wp:group {"className":"fact","layout":{"type":"default"}} -->
+<div class="wp-block-group fact">
+<!-- wp:paragraph {"className":"fact-n"} -->
+<p class="fact-n">2</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"fact-t"} -->
+<p class="fact-t">inklusive Krippengruppen</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"fact","layout":{"type":"default"}} -->
+<div class="wp-block-group fact">
+<!-- wp:paragraph {"className":"fact-n"} -->
+<p class="fact-n">4</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"fact-t"} -->
+<p class="fact-t">Kindergartengruppen</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"fact","layout":{"type":"default"}} -->
+<div class="wp-block-group fact">
+<!-- wp:paragraph {"className":"fact-n"} -->
+<p class="fact-n">1</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"fact-t"} -->
+<p class="fact-t">Passivhaus mit Gründach</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"fact","layout":{"type":"default"}} -->
+<div class="wp-block-group fact">
+<!-- wp:paragraph {"className":"fact-n"} -->
+<p class="fact-n">1</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"fact-t"} -->
+<p class="fact-t">Garten mit Zugang aus jeder Gruppe</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay","layout":{"type":"default"},"tagName":"section"} -->
+<section class="wp-block-group essay">
+<!-- wp:group {"className":"toc","layout":{"type":"default"},"tagName":"aside"} -->
+<aside class="wp-block-group toc">
+<!-- wp:html -->
+<nav aria-label="Auf dieser Seite"><p class="kicker">Auf dieser Seite</p><ol><li><a href="#kinderkrippe">Kinderkrippe</a></li><li><a href="#kindergarten">Kindergarten</a></li><li><a href="#paedagogik">Pädagogik</a></li><li><a href="#unser-haus">Unser Haus</a></li><li><a href="#eltern-im-kinderhaus">Eltern im Kinderhaus</a></li><li><a href="#wie-lernen-kinder-mit-montessori-material">Wie lernen Kinder mit Montessori-Material?</a></li></ol></nav>
+<!-- /wp:html -->
+</aside>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-body","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-body">
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"kinderkrippe"} -->
+<section id="kinderkrippe" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Kinderkrippe</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:paragraph -->
+<p>In der Krippe kommen Montessori-Materialien und die beziehungsorientierte Pflege nach Emmi Pikler zusammen. Schon beim Anziehen und Wickeln haben die Kinder Zeit, selbst mitzumachen. Bewegung und freies Spiel gehören zum Tagesablauf.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"essay-links"} -->
+<p class="essay-links"><a class="more" href="https://www.montessori-erding.de/wp-content/uploads/2026/01/final_Monte_ED_Konzept_Kinderkrippe_2025.pdf" target="_blank" rel="noopener">Konzept Kinderkrippe (PDF)</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"kindergarten"} -->
+<section id="kindergarten" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Kindergarten</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:paragraph -->
+<p>Kinder von drei bis sechs Jahren verbringen ihren Tag in vier Gruppen. Nach dem Morgenkreis wählen sie in der Freiarbeit Material und Spielpartner. Gartenzeit und gemeinsame Projekte ergänzen den Vormittag.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"essay-links"} -->
+<p class="essay-links"><a class="more" href="https://www.montessori-erding.de/wp-content/uploads/2026/01/Monte_ED_Konzept_Kindergarten_2026.pdf" target="_blank" rel="noopener">Konzept Kindergarten (PDF)</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"paedagogik"} -->
+<section id="paedagogik" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Pädagogik</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:paragraph -->
+<p>Die Kinder wählen ihr Arbeitsmaterial selbst und entscheiden, wie lange sie sich damit beschäftigen. Das Team gestaltet die Umgebung so, dass Kinder mit unterschiedlichen Fähigkeiten am Alltag teilnehmen können.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"unser-haus"} -->
+<section id="unser-haus" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Unser Haus</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:paragraph -->
+<p>Das Kinderhaus ist ein zertifiziertes Passivhaus mit Gründach. Jede Gruppe hat eigenen Zugang zum Garten – über Terrasse, Veranda oder Balkon. Dazu kommen Werkraum, Bewegungsraum und ein gut ausgestatteter Therapieraum.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"eltern-im-kinderhaus"} -->
+<section id="eltern-im-kinderhaus" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Eltern im Kinderhaus</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:paragraph -->
+<p>Eltern und Team tauschen sich regelmäßig über das Kind aus. Familien bringen ihre Fähigkeiten und Ideen in die Arbeit des Kinderhauses ein.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"essay-links"} -->
+<p class="essay-links"><a class="more" href="https://montessori-erding.de/wp-content/uploads/2022/10/Kinderhaus_Handzettel_Elternarbeit.pdf" target="_blank" rel="noopener">Handzettel Elternarbeit (PDF)</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"wie-lernen-kinder-mit-montessori-material"} -->
+<section id="wie-lernen-kinder-mit-montessori-material" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Wie lernen Kinder mit Montessori-Material?</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:paragraph -->
+<p>Sie wählen eine Tätigkeit selbst, wiederholen sie und probieren in ihrem Tempo. Erwachsene beobachten und zeigen bei Bedarf den nächsten Schritt.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"material"} -->
+<section id="material" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Unser Material</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:group {"className":"material scroller","layout":{"type":"default"}} -->
+<div class="wp-block-group material scroller">
+<!-- wp:image {"sizeSlug":"large","className":"material-item"} -->
+<figure class="wp-block-image size-large material-item"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_rote_Stangen_2e3a87e727.jpg" alt="Rote Stangen" loading="lazy" decoding="async"/><figcaption class="wp-element-caption">Rote Stangen</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large","className":"material-item"} -->
+<figure class="wp-block-image size-large material-item"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_geometrische_Ko__rper_fb04b3fe61.jpg" alt="Geometrische Körper" loading="lazy" decoding="async"/><figcaption class="wp-element-caption">Geometrische Körper</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large","className":"material-item"} -->
+<figure class="wp-block-image size-large material-item"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_goldenes_Perlenmaterial_f17cb55cd9.jpg" alt="Goldenes Perlenmaterial" loading="lazy" decoding="async"/><figcaption class="wp-element-caption">Goldenes Perlenmaterial</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large","className":"material-item"} -->
+<figure class="wp-block-image size-large material-item"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_Farbige_Einsatzzylinder_757cbfe5c3.jpg" alt="Farbige Einsatzzylinder" loading="lazy" decoding="async"/><figcaption class="wp-element-caption">Farbige Einsatzzylinder</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large","className":"material-item"} -->
+<figure class="wp-block-image size-large material-item"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_trinomischer_Kubus_41c69cf033.jpg" alt="Trinomischer Kubus" loading="lazy" decoding="async"/><figcaption class="wp-element-caption">Trinomischer Kubus</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large","className":"material-item"} -->
+<figure class="wp-block-image size-large material-item"><img src="https://montessori-erding.de/wp-content/uploads/2022/10/csm_Planeten_725c72365b.jpg" alt="Planeten" loading="lazy" decoding="async"/><figcaption class="wp-element-caption">Planeten</figcaption></figure>
+<!-- /wp:image -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"downloads"} -->
+<section id="downloads" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Downloads</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:list {"className":"doc-list"} -->
+<ul class="wp-block-list doc-list">
+<!-- wp:list-item -->
+<li><a href="https://montessori-erding.de/wp-content/uploads/2026/07/Beitragstabelle_26_08.pdf" target="_blank" rel="noopener">Beitragstabelle ab 01.08.2026</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.montessori-erding.de/wp-content/uploads/2026/02/Hausordnung-Montessori-Kinderhaus-Erding_02.2026.pdf" target="_blank" rel="noopener">Hausordnung</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.montessori-erding.de/wp-content/uploads/2024/09/Schutzkonzept-des-Montessori-Kinderhauses-in-Erding.pdf" target="_blank" rel="noopener">Schutzkonzept</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.montessori-erding.de/wp-content/uploads/2025/01/Beschwerdemanagement-im-Montessori-Kinderhaus.pdf" target="_blank" rel="noopener">Beschwerdemanagement</a></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"className":"essay-row","layout":{"type":"default"},"tagName":"section","anchor":"kontakt"} -->
+<section id="kontakt" class="wp-block-group essay-row">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Kontakt</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"essay-text","layout":{"type":"default"}} -->
+<div class="wp-block-group essay-text">
+<!-- wp:group {"className":"contact-card","layout":{"type":"default"}} -->
+<div class="wp-block-group contact-card">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Kinderhaus Erding</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"contact-sub"} -->
+<p class="contact-sub">Krippe & Kindergarten</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Brachvogelweg 10<br/>85435 Erding</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"contact-links"} -->
+<p class="contact-links"><a href="tel:08122540280">08122 54 02 80</a><br/><a href="mailto:kinderhaus@montessori-erding.de">kinderhaus@montessori-erding.de</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->

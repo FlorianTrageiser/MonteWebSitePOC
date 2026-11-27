@@ -1,6 +1,6 @@
 # Montessori Erding – Website-Entwürfe
 
-Drei Entwürfe für eine neue Website von [montessori-erding.de](https://montessori-erding.de),
+Fünf Entwürfe für eine neue Website von [montessori-erding.de](https://montessori-erding.de),
 gebaut mit den echten Inhalten der heutigen Seite.
 
 **Ansehen:** https://floriantrageiser.github.io/MonteWebSitePOC/
@@ -10,6 +10,8 @@ gebaut mit den echten Inhalten der heutigen Seite.
 | 1 · Wurzeln | natürlich & warm | [öffnen](https://floriantrageiser.github.io/MonteWebSitePOC/v1/index.html) | `themes/montessori-wurzeln` |
 | 2 · Kompass | klar & modern | [öffnen](https://floriantrageiser.github.io/MonteWebSitePOC/v2/index.html) | `themes/montessori-kompass` |
 | 3 · Farbenspiel | bunt & lebendig | [öffnen](https://floriantrageiser.github.io/MonteWebSitePOC/v3/index.html) | `themes/montessori-farbenspiel` |
+| 4 · Atelier | ruhig & redaktionell, Menü links | [öffnen](https://floriantrageiser.github.io/MonteWebSitePOC/v4/index.html) | `themes/montessori-atelier` |
+| 5 · Mosaik | modern, Kachel-Raster | [öffnen](https://floriantrageiser.github.io/MonteWebSitePOC/v5/index.html) | `themes/montessori-mosaik` |
 
 Jeder Entwurf hat Startseite, Kinderhaus, Schule, Verein, Termine & Aufnahme und Kontakt.
 

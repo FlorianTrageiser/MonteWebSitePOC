@@ -1,0 +1,120 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": false,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1240px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "sand",
+          "name": "Sand",
+          "color": "#f3efe7"
+        },
+        {
+          "slug": "petrol",
+          "name": "Petrol",
+          "color": "#12403f"
+        },
+        {
+          "slug": "petrol-2",
+          "name": "Petrol 2",
+          "color": "#1c5755"
+        },
+        {
+          "slug": "apricot",
+          "name": "Apricot",
+          "color": "#ffb48a"
+        },
+        {
+          "slug": "lilac",
+          "name": "Lilac",
+          "color": "#cdbdff"
+        },
+        {
+          "slug": "mint",
+          "name": "Mint",
+          "color": "#c4e8d6"
+        },
+        {
+          "slug": "sky",
+          "name": "Sky",
+          "color": "#cfe2f6"
+        },
+        {
+          "slug": "deep",
+          "name": "Deep",
+          "color": "#0f2a2a"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "ink-soft",
+          "name": "Ink Soft",
+          "color": "#355050"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#5b6f6e"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#e4ded2"
+        },
+        {
+          "slug": "on-primary",
+          "name": "On Primary",
+          "color": "#fff"
+        },
+        {
+          "slug": "accent",
+          "name": "Accent",
+          "color": "#e0703b"
+        },
+        {
+          "slug": "footer-ink",
+          "name": "Footer Ink",
+          "color": "#eef5f2"
+        }
+      ],
+      "defaultPalette": false,
+      "defaultGradients": false
+    },
+    "typography": {
+      "defaultFontSizes": false
+    }
+  },
+  "styles": {
+    "spacing": {
+      "blockGap": "0px",
+      "padding": {
+        "top": "0",
+        "bottom": "0",
+        "left": "0",
+        "right": "0"
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Kopfbereich",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Fußbereich",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": []
+}

@@ -31,11 +31,11 @@ a:hover,a.main{background:var(--ink);color:var(--card)}
 Die übrigen Seiten folgen, sobald eine Richtung ausgewählt ist.</p>
 <div class="links">
 <a class="main" href="/MonteWebSitePOC/">Zur Übersicht der Entwürfe</a>
-<a class="v" href="/MonteWebSitePOC/v1/index.html" data-v="v1">Entwurf 1 · Wurzeln</a><a class="v" href="/MonteWebSitePOC/v2/index.html" data-v="v2">Entwurf 2 · Kompass</a><a class="v" href="/MonteWebSitePOC/v3/index.html" data-v="v3">Entwurf 3 · Farbenspiel</a>
+<a class="v" href="/MonteWebSitePOC/v1/index.html" data-v="v1">Entwurf 1 · Wurzeln</a><a class="v" href="/MonteWebSitePOC/v2/index.html" data-v="v2">Entwurf 2 · Kompass</a><a class="v" href="/MonteWebSitePOC/v3/index.html" data-v="v3">Entwurf 3 · Farbenspiel</a><a class="v" href="/MonteWebSitePOC/v4/index.html" data-v="v4">Entwurf 4 · Atelier</a><a class="v" href="/MonteWebSitePOC/v5/index.html" data-v="v5">Entwurf 5 · Mosaik</a>
 </div>
 </main>
 <script>
-var m=location.pathname.match(/[/](v[123])[/]/);
+var m=location.pathname.match(/[/](v[1-9])[/]/);
 if(m){var a=document.querySelector('a[data-v="'+m[1]+'"]');if(a){a.textContent='Zurück zu '+a.textContent;a.classList.add('main');
 document.querySelector('.links').prepend(a);document.querySelector('.links a:nth-child(2)').classList.remove('main')}}
 </script>

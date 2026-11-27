@@ -327,3 +327,7 @@ VERSIONS = [
         "decor": Raw('<div class="page-decor" aria-hidden="true"><i class="d1"></i><i class="d2"></i><i class="d3"></i></div>'),
     },
 ]
+
+
+from versions2 import MORE  # noqa: E402
+VERSIONS += MORE

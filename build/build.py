@@ -43,13 +43,15 @@ def page_tree(v, key):
     if key == "index":
         return v["home"]()
     if key == "termine":
-        return termine_page(v["decor"])
+        return v.get("termine", termine_page)(v["decor"])
     if key == "kontakt":
-        return kontakt_page(v["decor"])
-    return subpage(key, v["decor"])
+        return v.get("kontakt", kontakt_page)(v["decor"])
+    return v.get("subpage", subpage)(key, v["decor"])
 
 
 def header_tree(v, current):
+    if v.get("header"):
+        return v["header"](current)
     extra = v["header_extra"]() if v["header_extra"] else None
     return header(current, extra)
 
@@ -162,7 +164,7 @@ h1{{font-size:clamp(28px,4vw,44px);line-height:1.1;margin:0;letter-spacing:-.02e
 <body>
 <div class="wrap">
 <header><img src="assets/logo-figuren.png" alt=""><h1>Neue Website für Montessori Erding</h1></header>
-<p class="intro">Drei Entwürfe mit den echten Inhalten der heutigen Website. Jeder Entwurf hat eine Startseite
+<p class="intro">Fünf Entwürfe mit den echten Inhalten der heutigen Website. Jeder Entwurf hat eine Startseite
 und Unterseiten für Kinderhaus, Schule, Verein, Termine und Kontakt. Einfach anklicken und durchklicken.</p>
 <div class="grid">
 {''.join(cards)}
@@ -416,7 +418,7 @@ Die übrigen Seiten folgen, sobald eine Richtung ausgewählt ist.</p>
 </div>
 </main>
 <script>
-var m=location.pathname.match(/[/](v[123])[/]/);
+var m=location.pathname.match(/[/](v[1-9])[/]/);
 if(m){{var a=document.querySelector('a[data-v="'+m[1]+'"]');if(a){{a.textContent='Zurück zu '+a.textContent;a.classList.add('main');
 document.querySelector('.links').prepend(a);document.querySelector('.links a:nth-child(2)').classList.remove('main')}}}}
 </script>
